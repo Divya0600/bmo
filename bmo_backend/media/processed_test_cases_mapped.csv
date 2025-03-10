@@ -1,0 +1,3029 @@
+Subject,test_case_id,Test Name,Pre-Condition,Description,No of Steps,Designer,Type,Major Functional Area,Business Unit,Complexity,test_steps,GIVEN,WHEN,THEN,Condition,Remaining,Business Capability,Impacted Application,Sub- Category,Role,Transactions,Profile,Profile type,Gateway,Transit Type,LOB,User Language,Transaction_Count,Processed_Steps
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Balancing_Clearings,927545,TC003_Validation of Cash for Cash Exchange Screen_Validation of HostResponse_Inquiry Pushbutton_Personal Profile,CCQA_OPT_2023,"TC003_Validation of Cash for Cash Exchange Screen_Validation of HostResponse_Inquiry Pushbutton_Personal Profile
+
+Business Capability : Administration
+Impacted Application: Customer Connect
+Sub- Category : Balancing/Clearing
+Role: Branch user
+
+
+DESIGN:
+GIVEN an Personal profile
+WHEN Cash for Cash Exchange is selected for  transaction
+THEN Sucessfull HOST RESPONSE is displayed
+    
+CONDITIONS: 
+Login to Customer Connect Application as Branch User 
+
+Profile: Personal
+Profile type:Customer
+Transit Type : Domicile
+Financial operator should be Logged In.
+
+Profile Should have all AML/KYC information filled",10,rs04,MANUAL,Administration,P&BB - Branch operations,3-Low,"Login to Customer Connect Application as 
+Branch User 
+
+Profile: Personal
+Profile type:Customer
+Transit Type : Domicile
+Financial operator should be Logged In.
+
+Profile Should have all AML/KYC information 
+filled~Customer Connect Application launched successfully. | Search and Open a Personal Profile~Profile Opened Successfully | Navigate to GoTo dropdown and select 
+Service Navigator.~Service Navigator screen is displayed. | Select:
+Holding type: Administration
+Category: Balancing/Administration
+Transaction: Cash for cash exchange
+
+Select Account from Holdings and click on 
+""Process Now"" Push button.~Customer Connect - Cash for Cash Exchange 
+Screen is displayed. | Select the below value
+
+Select ""customer"" Radio button from 
+exchange requested by.
+
+Select “CAD to CAD cash” Radio button From 
+Currency of Cash to be Exchanged” 
+
+Enter Amount(41000) in “Amount for 
+Exchange” field
+
+Click on Ok pushbutton~Source of cash Pushbutton should be 
+enabled | Click on source of cash button and
+Select How was the cash 
+obtained=Inheritance
+Enter First name=Ken
+Click on Save pushbutton~Customer Connect - Cash for Cash Exchange 
+Screen is displayed. | Click on Ok Pushbutton~HostResponse is displayed with 
+Close,Recall,Override,Help Pushbuttons | Click on Close Pushbutton in HostResponse~System Accepts and displays Customer 
+Connect-Service Navigator Screen | Click on Inquiries Pushbutton~Inquiries screens should be displayed | Select Holdings=General Inquiry
+Inquiry=Electronic Journal 
+
+Click on Ok Pushbutton~Electronic Journal Subscreen is displayed",GIVEN an Personal profile,WHEN Cash for Cash Exchange is selected for  transaction,THEN Sucessfull HOST RESPONSE is displayed,"CONDITIONS: 
+Login to Customer Connect Application as Branch User 
+Profile: Personal
+Profile type:Customer
+Transit Type : Domicile
+Financial operator should be Logged In.
+Profile Should have all AML/KYC information filled","TC003_Validation of Cash for Cash Exchange Screen_Validation of HostResponse_Inquiry Pushbutton_Personal Profile
+Business Capability : Administration
+Impacted Application: Customer Connect
+Sub- Category : Balancing/Clearing
+Role: Branch user",Administration,Customer Connect,Balancing/Clearing,Branch user,Cash for Cash Exchange,Personal,Customer,No,Domicile,,,1,"Step 1: Login to Customer Connect Application as 
+Branch User 
+
+Profile: Personal
+Profile type:Customer
+Transit Type : Domicile
+Financial operator should be Logged In.
+
+Profile Should have all AML/KYC information 
+filled | Expected result 1: Customer Connect Application launched successfully.
+Step 2: Search and Open a Personal Profile | Expected result 2: Profile Opened Successfully
+Step 3: Navigate to GoTo dropdown and select 
+Service Navigator. | Expected result 3: Service Navigator screen is displayed.
+Step 4: Select:
+Holding type: Administration
+Category: Balancing/Administration
+Transaction: Cash for cash exchange
+
+Select Account from Holdings and click on 
+""Process Now"" Push button. | Expected result 4: Customer Connect - Cash for Cash Exchange 
+Screen is displayed.
+Step 5: Select the below value
+
+Select ""customer"" Radio button from 
+exchange requested by.
+
+Select “CAD to CAD cash” Radio button From 
+Currency of Cash to be Exchanged” 
+
+Enter Amount(41000) in “Amount for 
+Exchange” field
+
+Click on Ok pushbutton | Expected result 5: Source of cash Pushbutton should be 
+enabled
+Step 6: Click on source of cash button and
+Select How was the cash 
+obtained=Inheritance
+Enter First name=Ken
+Click on Save pushbutton | Expected result 6: Customer Connect - Cash for Cash Exchange 
+Screen is displayed.
+Step 7: Click on Ok Pushbutton | Expected result 7: HostResponse is displayed with 
+Close,Recall,Override,Help Pushbuttons
+Step 8: Click on Close Pushbutton in HostResponse | Expected result 8: System Accepts and displays Customer 
+Connect-Service Navigator Screen
+Step 9: Click on Inquiries Pushbutton | Expected result 9: Inquiries screens should be displayed
+Step 10: Select Holdings=General Inquiry
+Inquiry=Electronic Journal 
+
+Click on Ok Pushbutton | Expected result 10: Electronic Journal Subscreen is displayed"
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Branch_Operator Admin,927539,TC003_Validation of MainScreen_My Day Screen_Validation of Administration_Balancing Administration,CCQA_OPT_2023,"TC003_Validation of MainScreen_My Day Screen_Validation of Administration_Balancing Administration
+- Branch Administration_Employee Gateway
+
+Business Capability : Administration
+Sub Category: Branch/Operator Admin
+Impacted Application: Customer Connect
+Role :Branch User
+
+DESIGN:
+GIVEN A Branch user in Employee Gateway
+When Select admin drop down from my day screen
+THEN Service navigator screen is displayed with default transaction as per options selected from admin dropdown
+
+CONDITIONS: 
+Login to Customer Connect Application as Branch user
+
+Gateway - Employee Gateway",8,rs04,MANUAL,Administration,P&BB - Branch operations,3-Low,"Login to Customer Connect Application as 
+Branch user
+
+Gateway - Employee Gateway~Customer connect Application launched 
+successfully and MY Day screen is displayed | Select 'Admin' drop down from 'My Day' screen~Admin' drop down list is displayed as follows;
+
+- Balancing/Administration
+- Branch Administration
+- Operator Administration | Click on 'Balancing/Administration' push button~Customer Connect-Service navigator screen 
+is displayed with 'Main' & 'Process Now' push 
+button 
+
+Default transaction is selected as follows;
+
+Holding or Service = Administration
+Category = Balancing/Administration
+Transaction = Cross Entry | Select 'Main' push button on Customer 
+Connect-Service navigator screen~Customer Connect - Main Screen is displayed | Click on 'Global Toolbar' Pushbutton on  main 
+screen~Global toolbar dropdown list is displayed With 
+below Feilds(i.e)
+Enable:
+Find Profile
+New Search
+Employee Gateway
+Admin
+My Day
+Go To
+Service Navigator
+Sales Navigator
+Inquiries
+Disable
+previous Search
+select profile
+Last Active profile
+profile
+Customer Information
+Shopping Cart | Select 'My Day' option from dropdown list~Customer Connect-My Day screen is 
+displayed | Select 'Admin' drop down~Admin' drop down list is displayed as 
+follows;
+
+- Balancing/Administration
+- Branch Administration
+- Operator Administration | Click on 'Branch Administration' push button~Customer Connect-Service navigator screen 
+is displayed with 'Main' & 'Process Now' push 
+button 
+
+Default transaction is selected as follows;
+
+Holding or Service = Administration
+Category = Branch Administration
+Transaction = Open or Close Branch",GIVEN A Branch user in Employee Gateway,When Select admin drop down from my day screen,THEN Service navigator screen is displayed with default transaction as per options selected from admin dropdown,"CONDITIONS: 
+Login to Customer Connect Application as Branch user
+Gateway - Employee Gateway","TC003_Validation of MainScreen_My Day Screen_Validation of Administration_Balancing Administration
+- Branch Administration_Employee Gateway
+Business Capability : Administration
+Sub Category: Branch/Operator Admin
+Impacted Application: Customer Connect
+Role :Branch User",Administration,Customer Connect,Branch/Operator Admin,Branch User,Cross Entry|Open or Close Branch,,,Employee,,,,3,"Step 1: Login to Customer Connect Application as 
+Branch user
+
+Gateway - Employee Gateway | Expected result 1: Customer connect Application launched 
+successfully and MY Day screen is displayed
+Step 2: Select 'Admin' drop down from 'My Day' screen | Expected result 2: Admin' drop down list is displayed as follows;
+
+- Balancing/Administration
+- Branch Administration
+- Operator Administration
+Step 3: Click on 'Balancing/Administration' push button | Expected result 3: Customer Connect-Service navigator screen 
+is displayed with 'Main' & 'Process Now' push 
+button 
+
+Default transaction is selected as follows;
+
+Holding or Service = Administration
+Category = Balancing/Administration
+Transaction = Cross Entry
+Step 4: Select 'Main' push button on Customer 
+Connect-Service navigator screen | Expected result 4: Customer Connect - Main Screen is displayed
+Step 5: Click on 'Global Toolbar' Pushbutton on  main 
+screen | Expected result 5: Global toolbar dropdown list is displayed With 
+below Feilds(i.e)
+Enable:
+Find Profile
+New Search
+Employee Gateway
+Admin
+My Day
+Go To
+Service Navigator
+Sales Navigator
+Inquiries
+Disable
+previous Search
+select profile
+Last Active profile
+profile
+Customer Information
+Shopping Cart
+Step 6: Select 'My Day' option from dropdown list | Expected result 6: Customer Connect-My Day screen is 
+displayed
+Step 7: Select 'Admin' drop down | Expected result 7: Admin' drop down list is displayed as 
+follows;
+
+- Balancing/Administration
+- Branch Administration
+- Operator Administration
+Step 8: Click on 'Branch Administration' push button | Expected result 8: Customer Connect-Service navigator screen 
+is displayed with 'Main' & 'Process Now' push 
+button 
+
+Default transaction is selected as follows;
+
+Holding or Service = Administration
+Category = Branch Administration
+Transaction = Open or Close Branch"
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Branch_Operator Admin,927544,TC001_Validation of Interbranch Transfer Screen_Validation of HostResponse_Balancing Administration_Personal Profile,CCQA_OPT_2023,"TC001_Validation of Interbranch Transfer Screen_Validation of HostResponse_Balancing Administration_Personal Profile
+Business Capability : Administration
+Impacted Application: Customer Connect
+Sub- Category : Balancing/Clearings
+Role: Branch user
+
+
+DESIGN:
+GIVEN an Personal profile
+WHEN  Interbranch Transfer is Selected for transaction
+THEN Sucessfull HOST RESPONSE is displayed
+    
+CONDITIONS: 
+Login to Customer Connect Application as Branch user
+
+Profile : Personal
+Profile type : Customer
+Transit type : Domicile
+
+Profile Should have all AML/KYC information filled and Profile should have valid Bank Account((3999160)
+
+
+Sign in with Valid Financial Operator",6,rs04,MANUAL,Administration,P&BB - Everyday Banking,2-Medium,"Login to Customer Connect Application as 
+Branch user
+
+Profile : Personal
+Profile type : Customer
+Transit type : Domicile
+
+Profile Should have all AML/KYC information 
+filled and Profile should have valid Bank 
+Account((3999160)
+
+
+Sign in with Valid Financial Operator~Customer Connect Application launched 
+successfully. | Search and Open a Personal Profile~Profile Opened Successfully | Navigate to GoTo dropdown and select 
+Service Navigator.~Service Navigator screen is displayed. | Select:
+Holding Servicing: Administration
+Category: Balancing/Administration
+Transaction: Interbranch Transfer  
+Click on Process now push button.~Customer Connect-InterBranch Transfer 
+Screen is displayed. | Enter below Fields
+Receiving Transit(0239)
+Select Account Radiobutton 
+Enter Transit(2015)
+Account(3999160)
+Amount($1000)
+GL Number(111131)
+Amount($10000)
+and Click OK push button on InterBranch 
+Transfer Screen~System Accepts and  display 
+successful  Host Response With 
+Enable:Recall & Help push buttons
+Disabled:Override push button",GIVEN an Personal profile,WHEN  Interbranch Transfer is Selected for transaction,THEN Sucessfull HOST RESPONSE is displayed,"CONDITIONS: 
+Login to Customer Connect Application as Branch user
+Profile : Personal
+Profile type : Customer
+Transit type : Domicile
+Profile Should have all AML/KYC information filled and Profile should have valid Bank Account((3999160)
+Sign in with Valid Financial Operator","TC001_Validation of Interbranch Transfer Screen_Validation of HostResponse_Balancing Administration_Personal Profile
+Business Capability : Administration
+Impacted Application: Customer Connect
+Sub- Category : Balancing/Clearings
+Role: Branch user",Administration,Customer Connect,Balancing/Clearings,Branch user,Interbranch Transfer,Personal,Customer,No,Domicile,,,2,"Step 1: Login to Customer Connect Application as 
+Branch user
+
+Profile : Personal
+Profile type : Customer
+Transit type : Domicile
+
+Profile Should have all AML/KYC information 
+filled and Profile should have valid Bank 
+Account((3999160)
+
+
+Sign in with Valid Financial Operator | Expected result 1: Customer Connect Application launched 
+successfully.
+Step 2: Search and Open a Personal Profile | Expected result 2: Profile Opened Successfully
+Step 3: Navigate to GoTo dropdown and select 
+Service Navigator. | Expected result 3: Service Navigator screen is displayed.
+Step 4: Select:
+Holding Servicing: Administration
+Category: Balancing/Administration
+Transaction: Interbranch Transfer  
+Click on Process now push button. | Expected result 4: Customer Connect-InterBranch Transfer 
+Screen is displayed.
+Step 5: Enter below Fields
+Receiving Transit(0239)
+Select Account Radiobutton 
+Enter Transit(2015)
+Account(3999160)
+Amount($1000)
+GL Number(111131)
+Amount($10000)
+and Click OK push button on InterBranch 
+Transfer Screen | Expected result 5: System Accepts and  display 
+successful  Host Response With 
+Enable:Recall & Help push buttons
+Disabled:Override push button"
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899140,TC002 Validation of Operator Sign In_Sign Out transaction_Validate Electronic Journal,CCQA_OPT_2023,"TC002 Validation of Operator Sign In_Sign Out transaction and Validate Electronic Journal 
+
+Business Capability : Administration
+Sub Category: Branch/Operator Admin
+Impacted Application: Customer Connect
+Role : Branch User (CSR)
+
+Design:
+GIVEN a personal profile
+WHEN Select sign out & sign in transaction in Electronic Journal and Click Details button
+THEN System should display transaction details information on Electronic Journal Transaction
+
+Condition:
+Login to Customer Connect Application as Branch User (CSR) 
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Profile should have all the AML/KYC fields updated already",21,sbote,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Branch User (CSR)
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Valid financial operator ID to signin 
+
+Profile should have all the AML/KYC fields 
+updated already.~Customer Connect Application launched 
+successfully | Search and Open Personal Profile~Profile opened successfully | Select Service Navigator from Go To dropdown~Service Navigator screen should be displayed | Select
+
+Holding or Service = Administration
+Category = Operator Administration
+Transaction = Final Sign Out
+
+and Click on Process now button~Host Response pop up is displayed with 
+available amount status | Select Ok button in host response pop up~Operator is signed out successfully and host 
+response pop up is displayed | Select Ok button in host response pop up~System should close the Host Response pop 
+up and Customer Connect - Service Navigator 
+screen should be displayed | Click Inquiries button from Menu bar~Inquiries pop up should be displayed with 
+Inquiry Menu screen | Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button~System should display Electronic Journal 
+screen | Click List button in Electronic Journal screen~System accepts and displays the list of 
+transactions captured in Electronic Journal | Select the Final Sign Out transaction in 
+Electronic Journal and Click Details button~System should display Final Sign Out transaction 
+information under Transactions Details grid
+
+Success Host Response should be displayed 
+under Host response section | Select 'Close Inquiries' button in inquiries screen~System should close the Inquiries screen and 
+Customer Connect - Service Navigator screen 
+should be displayed | Select
+
+Holding or Service = Administration
+Category = Operator Administration
+Transaction = Sign In
+
+and Click on Process now button~Operator Administration pop up is displayed with 
+previously connected finantial operator number | Validate the tabbing sequence for all the fields 
+in the Operator Administration pop up and verify 
+the watermark values for each field (if 
+applicable) while performing tabbing sequence~Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field. | Enter Valid operator number and Select 
+'Postdate' checkbox in operator administration 
+pop up~Operator number entered and Postdate checkbox is 
+selected successfully | Click on Ok push button in in operator 
+administration pop up~Warning dialogue is displayed as follows;
+
+'Are you sure you want to logon with operator'
+with Yes & No push buttons | Click on Yes button in warning dialogue pop up~Information Dialogue pop up is displayed with 
+successfully connected operator information | Click on Ok button in information dialogue pop up~System should close the information dialogue 
+pop up and Customer Connect - Service 
+Navigator screen should be displayed | Click Inquiries button from Menu bar~Inquiries pop up should be displayed with 
+Inquiry Menu screen | Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button~System should display Electronic Journal 
+screen | Click List button in Electronic Journal 
+screen~System accepts and displays the list of 
+transactions captured in Electronic Journal | Select the Sign In transaction in Electronic 
+Journal and Click Details button~System should display Sign In transaction 
+information under Transactions Details grid
+
+Success Host Response should be displayed 
+under Host response section",GIVEN a personal profile,WHEN Select sign out & sign in transaction in Electronic Journal and Click Details button,THEN System should display transaction details information on Electronic Journal Transaction,"Condition:
+Login to Customer Connect Application as Branch User (CSR) 
+Profile : Personal
+Profile Type : Customer
+Signin with valid financial operator ID
+Profile should have all the AML/KYC fields updated already","TC002 Validation of Operator Sign In_Sign Out transaction and Validate Electronic Journal 
+Business Capability : Administration
+Sub Category: Branch/Operator Admin
+Impacted Application: Customer Connect
+Role : Branch User (CSR)",Administration,Customer Connect,Branch/Operator Admin,Branch User (CSR),Final Sign Out|Sign In,Personal,Customer,No,,,,5,"Step 1: Login to Customer Connect Application as 
+Branch User (CSR)
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Valid financial operator ID to signin 
+
+Profile should have all the AML/KYC fields 
+updated already. | Expected result 1: Customer Connect Application launched 
+successfully
+Step 2: Search and Open Personal Profile | Expected result 2: Profile opened successfully
+Step 3: Select Service Navigator from Go To dropdown | Expected result 3: Service Navigator screen should be displayed
+Step 4: Select
+
+Holding or Service = Administration
+Category = Operator Administration
+Transaction = Final Sign Out
+
+and Click on Process now button | Expected result 4: Host Response pop up is displayed with 
+available amount status
+Step 5: Select Ok button in host response pop up | Expected result 5: Operator is signed out successfully and host 
+response pop up is displayed
+Step 6: Select Ok button in host response pop up | Expected result 6: System should close the Host Response pop 
+up and Customer Connect - Service Navigator 
+screen should be displayed
+Step 7: Click Inquiries button from Menu bar | Expected result 7: Inquiries pop up should be displayed with 
+Inquiry Menu screen
+Step 8: Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button | Expected result 8: System should display Electronic Journal 
+screen
+Step 9: Click List button in Electronic Journal screen | Expected result 9: System accepts and displays the list of 
+transactions captured in Electronic Journal
+Step 10: Select the Final Sign Out transaction in 
+Electronic Journal and Click Details button | Expected result 10: System should display Final Sign Out transaction 
+information under Transactions Details grid
+
+Success Host Response should be displayed 
+under Host response section
+Step 11: Select 'Close Inquiries' button in inquiries screen | Expected result 11: System should close the Inquiries screen and 
+Customer Connect - Service Navigator screen 
+should be displayed
+Step 12: Select
+
+Holding or Service = Administration
+Category = Operator Administration
+Transaction = Sign In
+
+and Click on Process now button | Expected result 12: Operator Administration pop up is displayed with 
+previously connected finantial operator number
+Step 13: Validate the tabbing sequence for all the fields 
+in the Operator Administration pop up and verify 
+the watermark values for each field (if 
+applicable) while performing tabbing sequence | Expected result 13: Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field.
+Step 14: Enter Valid operator number and Select 
+'Postdate' checkbox in operator administration 
+pop up | Expected result 14: Operator number entered and Postdate checkbox is 
+selected successfully
+Step 15: Click on Ok push button in in operator 
+administration pop up | Expected result 15: Warning dialogue is displayed as follows;
+
+'Are you sure you want to logon with operator'
+with Yes & No push buttons
+Step 16: Click on Yes button in warning dialogue pop up | Expected result 16: Information Dialogue pop up is displayed with 
+successfully connected operator information
+Step 17: Click on Ok button in information dialogue pop up | Expected result 17: System should close the information dialogue 
+pop up and Customer Connect - Service 
+Navigator screen should be displayed
+Step 18: Click Inquiries button from Menu bar | Expected result 18: Inquiries pop up should be displayed with 
+Inquiry Menu screen
+Step 19: Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button | Expected result 19: System should display Electronic Journal 
+screen
+Step 20: Click List button in Electronic Journal 
+screen | Expected result 20: System accepts and displays the list of 
+transactions captured in Electronic Journal
+Step 21: Select the Sign In transaction in Electronic 
+Journal and Click Details button | Expected result 21: System should display Sign In transaction 
+information under Transactions Details grid
+
+Success Host Response should be displayed 
+under Host response section"
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899149,TC003 Validation of Cheques Cashed Transaction and  Electronic Journal Details of the transaction,CCQA_OPT_2023,"TC003 Validation of Cheques Cashed Transaction and  Electronic Journal Details of the transaction
+
+Business Capability : Administration
+Sub Category: Branch/Operator Administration
+Impacted Application: Customer Connect
+Role : Branch User (CSR)
+
+Design:
+GIVEN a Employee gateway
+WHEN  Select Cheques Cashed transaction in Electronic Journal and Click Details button
+THEN System should display transaction details information on Electronic Journal Transaction
+
+Condition:
+Login to Customer Connect Application as Branch User (CSR)
+
+Gateway - Employee Gateway
+
+Sign in with valid financial operator ID
+
+Need valid bank account of CAD",11,nkuma48,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Branch User(CSR) 
+
+Gateway - Employee Gateway
+
+Sign in with valid financial operator ID
+
+Need valid bank account of CAD~Customer Connect Application launched 
+successfully | Select Employee Gateway push button from 
+toolbar~Employee Gateway Service Navigator screen 
+is displayed successfully | Select
+
+Holding or Service = Administration
+Category = Branching/Administartion
+Transaction = Cheques Cashed
+
+
+
+and Click on Process now button~Customer Connect - Cheques cashed screen 
+should be displayed with 'CAD' radio button is 
+selected by default | Validate the tabbing sequence for all the 
+fields in the Customer Connect - Cheques 
+cashed screen and verify the watermark 
+values for each field (if applicable) while 
+performing tabbing sequence~Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field. | Enter mandatory Details Total Cheque amount and Explanation~All mandatory Details are enetered succesfully | Select ""OK"" push button in Cheque cashed 
+Screen~System accepts and display successful Host 
+Response pop up with Profile, Close, Recall , 
+Override, Help push button | Click Profile push button on the Host response 
+screen~System should close Host response 
+and Navigate back to Profile view screen | Click Inquiries button from Menu bar~Inquiries pop up should be displayed with 
+Inquiry Menu screen | Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button~System should display Electronic Journal 
+screen | Click List button in Electronic Journal screen~System accepts and displays the Electronic 
+Journal Transaction list screen | Select the cheque cashed 
+ transaction in Electronic Journal and Click 
+Details button~Electronic Journal Transaction details screen 
+displys Cheque cashed transaction 
+information under Transactions Details grid 
+and Host Response details displayed in Host 
+Response section",GIVEN a Employee gateway,WHEN  Select Cheques Cashed transaction in Electronic Journal and Click Details button,THEN System should display transaction details information on Electronic Journal Transaction,"Condition:
+Login to Customer Connect Application as Branch User (CSR)
+Gateway - Employee Gateway
+Sign in with valid financial operator ID
+Need valid bank account of CAD","TC003 Validation of Cheques Cashed Transaction and  Electronic Journal Details of the transaction
+Business Capability : Administration
+Sub Category: Branch/Operator Administration
+Impacted Application: Customer Connect
+Role : Branch User (CSR)",Administration,Customer Connect,Branch/Operator Administration,Branch User (CSR),Cheques Cashed,,,Employee,,,,1,"Step 1: Login to Customer Connect Application as 
+Branch User(CSR) 
+
+Gateway - Employee Gateway
+
+Sign in with valid financial operator ID
+
+Need valid bank account of CAD | Expected result 1: Customer Connect Application launched 
+successfully
+Step 2: Select Employee Gateway push button from 
+toolbar | Expected result 2: Employee Gateway Service Navigator screen 
+is displayed successfully
+Step 3: Select
+
+Holding or Service = Administration
+Category = Branching/Administartion
+Transaction = Cheques Cashed
+
+
+
+and Click on Process now button | Expected result 3: Customer Connect - Cheques cashed screen 
+should be displayed with 'CAD' radio button is 
+selected by default
+Step 4: Validate the tabbing sequence for all the 
+fields in the Customer Connect - Cheques 
+cashed screen and verify the watermark 
+values for each field (if applicable) while 
+performing tabbing sequence | Expected result 4: Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field.
+Step 5: Enter mandatory Details Total Cheque amount and Explanation | Expected result 5: All mandatory Details are enetered succesfully
+Step 6: Select ""OK"" push button in Cheque cashed 
+Screen | Expected result 6: System accepts and display successful Host 
+Response pop up with Profile, Close, Recall , 
+Override, Help push button
+Step 7: Click Profile push button on the Host response 
+screen | Expected result 7: System should close Host response 
+and Navigate back to Profile view screen
+Step 8: Click Inquiries button from Menu bar | Expected result 8: Inquiries pop up should be displayed with 
+Inquiry Menu screen
+Step 9: Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button | Expected result 9: System should display Electronic Journal 
+screen
+Step 10: Click List button in Electronic Journal screen | Expected result 10: System accepts and displays the Electronic 
+Journal Transaction list screen
+Step 11: Select the cheque cashed 
+ transaction in Electronic Journal and Click 
+Details button | Expected result 11: Electronic Journal Transaction details screen 
+displys Cheque cashed transaction 
+information under Transactions Details grid 
+and Host Response details displayed in Host 
+Response section"
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899155,TC004 Commercial customer_Valdation of Operator Sign In_Sign Out transaction and Validate Electronic Journal (FSM),CCQA_OPT_2023,"""TC004 Commercial customer_Valdation of Operator Sign In_Sign Out transaction and Validate Electronic Journal (FSM)
+
+Business Capability : Administration
+Sub Category: Branch/Operator Admin
+Impacted Application: Customer Connect
+Role : Branch User (FSM)
+
+Design:
+GIVEN a commercial profile
+WHEN Select sign out & sign in transaction in Electronic Journal and Click Details button
+THEN System should display transaction details information on Electronic Journal Transaction
+
+Condition:
+Login to Customer Connect Application as Branch User (FSM) 
+
+Profile : Commercial
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Profile should have all the AML/KYC fields updated already""",21,nkuma48,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Branch User (FSM)
+
+Profile : Commercial
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Valid financial operator ID to signin 
+
+Profile should have all the AML/KYC fields 
+updated already.~Customer Connect Application launched 
+successfully | Search and Open commercial Profile~Profile opened successfully | Select Service Navigator from Go To dropdown~Service Navigator screen should be displayed | ""Select
+
+Holding or Service = Administration
+Category = Operator Administration
+Transaction = Final Sign Out
+
+and Click on Process now button""~""Host Response pop up is displayed with 
+available amount status"" | Select Ok button in host response pop up~""Operator is signed out successfully and host 
+response pop up is displayed"" | Select Ok button in host response pop up~""System should close the Host Response pop 
+up and Customer Connect - Service Navigator 
+screen should be displayed"" | Click Inquiries button from Menu bar~""Inquiries pop up should be displayed with 
+Inquiry Menu screen"" | ""Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button""~""System should display Electronic Journal 
+screen"" | Click List button in Electronic Journal screen~""System accepts and displays the list of 
+transactions captured in Electronic Journal"" | ""Select the Final Sign Out transaction in 
+Electronic Journal and Click Details button""~""System should display Final Sign Out transaction 
+information under Transactions Details grid
+
+Success Host Response should be displayed 
+under Host response section"" | Select 'Close Inquiries' button in inquiries 
+screen~""System should close the Inquiries screen and 
+Customer Connect - Service Navigator screen 
+should be displayed"" | ""Select
+
+Holding or Service = Administration
+Category = Operator Administration
+Transaction = Sign In
+
+and Click on Process now button""~""Operator Administration pop up is displayed with 
+previously connected finantial operator number"" | ""Validate the tabbing sequence for all the 
+fields 
+in the Operator Administration pop up and 
+verify 
+the watermark values for each field (if 
+applicable) while performing tabbing 
+sequence""~""Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field."" | ""Enter Valid operator number and Select 
+'Postdate' checkbox in operator administration 
+pop up""~""Operator number entered and Postdate checkbox is 
+selected successfully"" | ""Click on Ok push button in in operator 
+administration pop up""~""Warning dialogue is displayed as follows;
+
+'Are you sure you want to logon with operator'
+with Yes & No push buttons"" | Click on Yes button in warning dialogue pop 
+up~""Information Dialogue pop up is displayed with 
+successfully connected operator information"" | Click on Ok button in information dialogue pop 
+up~""System should close the information dialogue 
+pop up and Customer Connect - Service 
+Navigator screen should be displayed"" | Click Inquiries button from Menu bar~""Inquiries pop up should be displayed with 
+Inquiry Menu screen"" | ""Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button""~""System should display Electronic Journal 
+screen"" | Click List button in Electronic Journal screen~""System accepts and displays the list of 
+transactions captured in Electronic Journal"" | ""Select the Sign In transaction in Electronic 
+Journal and Click Details button""~""System should display Sign In transaction 
+information under Transactions Details grid
+
+Success Host Response should be displayed 
+under Host response section""",GIVEN a commercial profile,WHEN Select sign out & sign in transaction in Electronic Journal and Click Details button,THEN System should display transaction details information on Electronic Journal Transaction,"Condition:
+Login to Customer Connect Application as Branch User (FSM) 
+Profile : Commercial
+Profile Type : Customer
+Signin with valid financial operator ID
+Profile should have all the AML/KYC fields updated already""","""TC004 Commercial customer_Valdation of Operator Sign In_Sign Out transaction and Validate Electronic Journal (FSM)
+Business Capability : Administration
+Sub Category: Branch/Operator Admin
+Impacted Application: Customer Connect
+Role : Branch User (FSM)",Administration,Customer Connect,Branch/Operator Admin,Branch User (FSM),Final Sign Out|Sign In,Commercial,Customer,No,,,,5,"Step 1: Login to Customer Connect Application as 
+Branch User (FSM)
+
+Profile : Commercial
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Valid financial operator ID to signin 
+
+Profile should have all the AML/KYC fields 
+updated already. | Expected result 1: Customer Connect Application launched 
+successfully
+Step 2: Search and Open commercial Profile | Expected result 2: Profile opened successfully
+Step 3: Select Service Navigator from Go To dropdown | Expected result 3: Service Navigator screen should be displayed
+Step 4: ""Select
+
+Holding or Service = Administration
+Category = Operator Administration
+Transaction = Final Sign Out
+
+and Click on Process now button"" | Expected result 4: ""Host Response pop up is displayed with 
+available amount status""
+Step 5: Select Ok button in host response pop up | Expected result 5: ""Operator is signed out successfully and host 
+response pop up is displayed""
+Step 6: Select Ok button in host response pop up | Expected result 6: ""System should close the Host Response pop 
+up and Customer Connect - Service Navigator 
+screen should be displayed""
+Step 7: Click Inquiries button from Menu bar | Expected result 7: ""Inquiries pop up should be displayed with 
+Inquiry Menu screen""
+Step 8: ""Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button"" | Expected result 8: ""System should display Electronic Journal 
+screen""
+Step 9: Click List button in Electronic Journal screen | Expected result 9: ""System accepts and displays the list of 
+transactions captured in Electronic Journal""
+Step 10: ""Select the Final Sign Out transaction in 
+Electronic Journal and Click Details button"" | Expected result 10: ""System should display Final Sign Out transaction 
+information under Transactions Details grid
+
+Success Host Response should be displayed 
+under Host response section""
+Step 11: Select 'Close Inquiries' button in inquiries 
+screen | Expected result 11: ""System should close the Inquiries screen and 
+Customer Connect - Service Navigator screen 
+should be displayed""
+Step 12: ""Select
+
+Holding or Service = Administration
+Category = Operator Administration
+Transaction = Sign In
+
+and Click on Process now button"" | Expected result 12: ""Operator Administration pop up is displayed with 
+previously connected finantial operator number""
+Step 13: ""Validate the tabbing sequence for all the 
+fields 
+in the Operator Administration pop up and 
+verify 
+the watermark values for each field (if 
+applicable) while performing tabbing 
+sequence"" | Expected result 13: ""Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field.""
+Step 14: ""Enter Valid operator number and Select 
+'Postdate' checkbox in operator administration 
+pop up"" | Expected result 14: ""Operator number entered and Postdate checkbox is 
+selected successfully""
+Step 15: ""Click on Ok push button in in operator 
+administration pop up"" | Expected result 15: ""Warning dialogue is displayed as follows;
+
+'Are you sure you want to logon with operator'
+with Yes & No push buttons""
+Step 16: Click on Yes button in warning dialogue pop 
+up | Expected result 16: ""Information Dialogue pop up is displayed with 
+successfully connected operator information""
+Step 17: Click on Ok button in information dialogue pop 
+up | Expected result 17: ""System should close the information dialogue 
+pop up and Customer Connect - Service 
+Navigator screen should be displayed""
+Step 18: Click Inquiries button from Menu bar | Expected result 18: ""Inquiries pop up should be displayed with 
+Inquiry Menu screen""
+Step 19: ""Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button"" | Expected result 19: ""System should display Electronic Journal 
+screen""
+Step 20: Click List button in Electronic Journal screen | Expected result 20: ""System accepts and displays the list of 
+transactions captured in Electronic Journal""
+Step 21: ""Select the Sign In transaction in Electronic 
+Journal and Click Details button"" | Expected result 21: ""System should display Sign In transaction 
+information under Transactions Details grid
+
+Success Host Response should be displayed 
+under Host response section"""
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899158,TC006 Sell Canada Premium Bonds_Provincial Bonds - Suspense Account Credit transaction_Validate transaction details on Electronic Journal,CCQA_OPT_2023,"TC006 Sell Canada Premium Bonds_Provincial Bonds - Suspense Account Credit transaction_Validate transaction details on 
+Electronic Journal
+
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect and MECH
+Role :Branch User (CSR)
+
+Design:
+GIVEN a personal profile with a valid EDB account
+WHEN Select  Sell Canada Premium Bonds / Provincial Bonds - Suspense Account Credit transaction in Electronic Journal and 
+Click Details button
+THEN System should display transaction details information on Electronic Journal Transaction
+
+Condition:
+Login to Customer Connect Application as Branch User (CSR)
+
+Profile : Personal
+Profile Type : Customer
+
+Sign in with valid financial operator ID
+
+Profile should have all the AML/KYC data filled
+
+Profile should have a valid EDB account for Sell Canada Premium Bonds / Provincial Bonds - Suspense Account Credit 
+transaction",14,sbote,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Branch User (CSR)
+
+Profile : Personal
+Profile Type : Customer
+
+Sign in with valid financial operator ID
+
+Profile should have all the AML/KYC data filled
+
+Profile should have valid EDB account for Sell 
+Canada Premium Bonds / Provincial Bonds - 
+Suspense Account Credit transaction~Customer Connect Application launched 
+successfully | Search and Open Personal Profile~Profile opened successfully | Select Service Navigator from Go To dropdown~Service Navigator screen should be displayed | Select
+
+Holding or Service = Administration
+Category = Balancing/Administration
+Transaction = Sell Canada Premium Bonds / 
+Provincial Bonds - Suspense Account Credit
+
+and Click on Process now button~Customer Connect - Sell Canada Premium 
+Bonds / Provincial Bonds - Suspense 
+Account Credit screen should be displayed 
+with 
+
+'G/L' radio button in Debit General Ledger 
+group box is selected by default and 
+
+with OK, Cancel, Clear and Explantation push 
+buttons | Validate the tabbing sequence for all the fields 
+in the 'Customer Connect - Sell Canada Premium 
+Bonds / Provincial Bonds - Suspense Account 
+Credit' screen and verify the watermark values 
+for each field (if applicable) while performing 
+tabbing sequence~Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field. | Enter valid Transit & Suspense Account number 
+in respective fields~Transit & Suspense Account number is entered successfully in their respective fields | Select 'Cheque' radio button under Debit General 
+Ledger section~Cheque radio button is selected successfully | Enter the cheque amount in 'Total Cheque 
+Amount' field~Entered amount should be displayed 
+successfully | Enter other optional data i.e. Residence & 
+Explanation and
+
+Select ‘OK’ push button in account credit screen~System accepts and display successfull Host 
+Response pop up window with Profile, Close, 
+Recall,Override and Help push buttons | Click on 'Profile' button in the Host response 
+screen~System should close the Host Response pop 
+up  and Customer Connect - Profile View screen 
+is displayed | Click Inquiries button from Menu bar~Inquiries pop up should be displayed with 
+Inquiry Menu screen | Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button~System should display Electronic Journal 
+screen | Click List button in Electronic Journal screen~System accepts and displays the Electronic 
+Journal Transaction list | Select the Sell Canada Premium Bonds / 
+Provincial Bonds - Suspense Account Credit 
+transaction in Electronic Journal Transaction list 
+and Click Details button~System should display the transaction 
+information under Transactions Details grid with 
+Success Host Response details",GIVEN a personal profile with a valid EDB account,"WHEN Select  Sell Canada Premium Bonds / Provincial Bonds - Suspense Account Credit transaction in Electronic Journal and 
+Click Details button",THEN System should display transaction details information on Electronic Journal Transaction,"Condition:
+Login to Customer Connect Application as Branch User (CSR)
+Profile : Personal
+Profile Type : Customer
+Sign in with valid financial operator ID
+Profile should have all the AML/KYC data filled
+Profile should have a valid EDB account for Sell Canada Premium Bonds / Provincial Bonds - Suspense Account Credit 
+transaction","TC006 Sell Canada Premium Bonds_Provincial Bonds - Suspense Account Credit transaction_Validate transaction details on 
+Electronic Journal
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect and MECH
+Role :Branch User (CSR)",Administration,Customer Connect and MECH,Balancing/Clearings,Branch User (CSR),Sell Canada Premium Bonds / Provincial Bonds - Suspense Account Credit,Personal,Customer,No,,,,1,"Step 1: Login to Customer Connect Application as 
+Branch User (CSR)
+
+Profile : Personal
+Profile Type : Customer
+
+Sign in with valid financial operator ID
+
+Profile should have all the AML/KYC data filled
+
+Profile should have valid EDB account for Sell 
+Canada Premium Bonds / Provincial Bonds - 
+Suspense Account Credit transaction | Expected result 1: Customer Connect Application launched 
+successfully
+Step 2: Search and Open Personal Profile | Expected result 2: Profile opened successfully
+Step 3: Select Service Navigator from Go To dropdown | Expected result 3: Service Navigator screen should be displayed
+Step 4: Select
+
+Holding or Service = Administration
+Category = Balancing/Administration
+Transaction = Sell Canada Premium Bonds / 
+Provincial Bonds - Suspense Account Credit
+
+and Click on Process now button | Expected result 4: Customer Connect - Sell Canada Premium 
+Bonds / Provincial Bonds - Suspense 
+Account Credit screen should be displayed 
+with 
+
+'G/L' radio button in Debit General Ledger 
+group box is selected by default and 
+
+with OK, Cancel, Clear and Explantation push 
+buttons
+Step 5: Validate the tabbing sequence for all the fields 
+in the 'Customer Connect - Sell Canada Premium 
+Bonds / Provincial Bonds - Suspense Account 
+Credit' screen and verify the watermark values 
+for each field (if applicable) while performing 
+tabbing sequence | Expected result 5: Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field.
+Step 6: Enter valid Transit & Suspense Account number 
+in respective fields | Expected result 6: Transit & Suspense Account number is entered successfully in their respective fields
+Step 7: Select 'Cheque' radio button under Debit General 
+Ledger section | Expected result 7: Cheque radio button is selected successfully
+Step 8: Enter the cheque amount in 'Total Cheque 
+Amount' field | Expected result 8: Entered amount should be displayed 
+successfully
+Step 9: Enter other optional data i.e. Residence & 
+Explanation and
+
+Select ‘OK’ push button in account credit screen | Expected result 9: System accepts and display successfull Host 
+Response pop up window with Profile, Close, 
+Recall,Override and Help push buttons
+Step 10: Click on 'Profile' button in the Host response 
+screen | Expected result 10: System should close the Host Response pop 
+up  and Customer Connect - Profile View screen 
+is displayed
+Step 11: Click Inquiries button from Menu bar | Expected result 11: Inquiries pop up should be displayed with 
+Inquiry Menu screen
+Step 12: Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button | Expected result 12: System should display Electronic Journal 
+screen
+Step 13: Click List button in Electronic Journal screen | Expected result 13: System accepts and displays the Electronic 
+Journal Transaction list
+Step 14: Select the Sell Canada Premium Bonds / 
+Provincial Bonds - Suspense Account Credit 
+transaction in Electronic Journal Transaction list 
+and Click Details button | Expected result 14: System should display the transaction 
+information under Transactions Details grid with 
+Success Host Response details"
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899159,TC009 Validation of Amend Deposit Content Counters transaction_Validate Electronic Journal,CCQA_OPT_2023,"TC009 Validation of Amend Deposit Content Counters transaction_Validate Electronic Journal
+
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect
+Role :Branch User
+
+Design:
+GIVEN a Commercial profile
+WHEN Select Amend Deposit Content Counters transaction in Electronic Journal and Click Details button
+THEN System should display transaction details information on Electronic Journal Transaction
+
+Condition:
+Login to Customer Connect Application as Branch User 
+
+Profile : Commercial
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Profile should have all the AML/KYC fields updated already
+
+Need valid bank account for Amend Deposit Content Counters transaction
+
+Need valid Referance Date to complete the transaction",16,sbote,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Branch User 
+
+Profile : Commercial
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Profile should have all the AML/KYC fields 
+updated already
+
+Need valid bank account for Amend Deposit 
+Content Counters transaction
+
+Need valid Referance Date to complete the 
+transaction~Customer Connect Application launched 
+successfully | Search and Open Commercial Profile~Profile opened successfully | Select Service Navigator from Go To dropdown~Customer connect - Service Navigator screen 
+should be displayed | Select
+
+Holding or Service = Administration
+Category = Balancing/Administration
+Transaction = Amend Deposit Content Counters
+and Click on Process now button~Customer Connect - Amend Deposit Content 
+Counters screen should be displayed
+
+'Transit' number is selcted by default
+
+'No Change' option is selected by default from 
+Cash Adjustment, Coin Adjustment & No of 
+Cheques Adjustment dropdowns | Validate the tabbing sequence for all the fields 
+in the 'Customer Connect - Amend Deposit 
+Content Counters' screen and verify the 
+watermark values for each field (if applicable) 
+while performing tabbing sequence~Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field. | Enter valid account number in 'Account' field~Entered account number is displayed 
+successfully | Select 'Increase' option from 'Cash Adjustment' 
+& 'No of Cheques Adjustment' dropdowns~Increase' option is selcted successfully from 
+'Cash Adjustment' & 'No of Cheques Adjustment' 
+dropdowns | Enter valid date in 'Referance Date' field~Entered valid Referance Date is displayed 
+successfully | Enter the cheque amount in in 'Cash Amount' 
+field~Entered amount is displayed successfully | Enter cheque quantity in 'No of Cheques' field~Entered quantity in no of cheques is displayed 
+successfully | Select ‘OK’ push button in Amend Deposit 
+Content Counters screen~System accepts and display successfull Host 
+Response pop up window with close, recall, 
+override, help buttons | Click on 'Close' button in the Host response 
+screen~System should close the Host Response pop 
+up  and Customer Connect - Service Navigator 
+screen is displayed | Click Inquiries button from Menu bar~Inquiries pop up should be displayed with 
+Inquiry Menu screen | Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button~System should display Electronic Journal 
+screen | Click List button in Electronic Journal screen~System accepts and displays the Electronic 
+Journal Transaction list | Select the Amend Deposit Content Counters 
+transaction in Electronic Journal Transaction list 
+and Click Details button~System should display the Amend Deposit 
+Content Counters transaction information under 
+Transactions Details grid with Success Host 
+Response details",GIVEN a Commercial profile,WHEN Select Amend Deposit Content Counters transaction in Electronic Journal and Click Details button,THEN System should display transaction details information on Electronic Journal Transaction,"Condition:
+Login to Customer Connect Application as Branch User 
+Profile : Commercial
+Profile Type : Customer
+Signin with valid financial operator ID
+Profile should have all the AML/KYC fields updated already
+Need valid bank account for Amend Deposit Content Counters transaction
+Need valid Referance Date to complete the transaction","TC009 Validation of Amend Deposit Content Counters transaction_Validate Electronic Journal
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect
+Role :Branch User",Administration,Customer Connect,Balancing/Clearings,Branch User,Amend Deposit Content Counters,Commercial,Customer,No,,,,1,"Step 1: Login to Customer Connect Application as 
+Branch User 
+
+Profile : Commercial
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Profile should have all the AML/KYC fields 
+updated already
+
+Need valid bank account for Amend Deposit 
+Content Counters transaction
+
+Need valid Referance Date to complete the 
+transaction | Expected result 1: Customer Connect Application launched 
+successfully
+Step 2: Search and Open Commercial Profile | Expected result 2: Profile opened successfully
+Step 3: Select Service Navigator from Go To dropdown | Expected result 3: Customer connect - Service Navigator screen 
+should be displayed
+Step 4: Select
+
+Holding or Service = Administration
+Category = Balancing/Administration
+Transaction = Amend Deposit Content Counters
+and Click on Process now button | Expected result 4: Customer Connect - Amend Deposit Content 
+Counters screen should be displayed
+
+'Transit' number is selcted by default
+
+'No Change' option is selected by default from 
+Cash Adjustment, Coin Adjustment & No of 
+Cheques Adjustment dropdowns
+Step 5: Validate the tabbing sequence for all the fields 
+in the 'Customer Connect - Amend Deposit 
+Content Counters' screen and verify the 
+watermark values for each field (if applicable) 
+while performing tabbing sequence | Expected result 5: Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field.
+Step 6: Enter valid account number in 'Account' field | Expected result 6: Entered account number is displayed 
+successfully
+Step 7: Select 'Increase' option from 'Cash Adjustment' 
+& 'No of Cheques Adjustment' dropdowns | Expected result 7: Increase' option is selcted successfully from 
+'Cash Adjustment' & 'No of Cheques Adjustment' 
+dropdowns
+Step 8: Enter valid date in 'Referance Date' field | Expected result 8: Entered valid Referance Date is displayed 
+successfully
+Step 9: Enter the cheque amount in in 'Cash Amount' 
+field | Expected result 9: Entered amount is displayed successfully
+Step 10: Enter cheque quantity in 'No of Cheques' field | Expected result 10: Entered quantity in no of cheques is displayed 
+successfully
+Step 11: Select ‘OK’ push button in Amend Deposit 
+Content Counters screen | Expected result 11: System accepts and display successfull Host 
+Response pop up window with close, recall, 
+override, help buttons
+Step 12: Click on 'Close' button in the Host response 
+screen | Expected result 12: System should close the Host Response pop 
+up  and Customer Connect - Service Navigator 
+screen is displayed
+Step 13: Click Inquiries button from Menu bar | Expected result 13: Inquiries pop up should be displayed with 
+Inquiry Menu screen
+Step 14: Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button | Expected result 14: System should display Electronic Journal 
+screen
+Step 15: Click List button in Electronic Journal screen | Expected result 15: System accepts and displays the Electronic 
+Journal Transaction list
+Step 16: Select the Amend Deposit Content Counters 
+transaction in Electronic Journal Transaction list 
+and Click Details button | Expected result 16: System should display the Amend Deposit 
+Content Counters transaction information under 
+Transactions Details grid with Success Host 
+Response details"
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899161,TC008_Branch User(CSR)_Personal Customer performing Clearing Summary transaction,CCQA_OPT_2023,"TC008_Branch User(CSR)_Personal Customer performing Clearing Summary transaction
+
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect
+Role :Branch User (CSR)
+
+Design:
+GIVEN a personal profile
+WHEN Select Clearings Summary transaction from Service Navigator 
+THEN validate Clearings Summary details displayed successfully
+
+Condition:
+Login to Customer Connect Application as Branch User (CSR) 
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Profile should have all the AML/KYC fields updated already",7,pkuma76,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Branch User (CSR) 
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Profile should have all the AML/KYC fields 
+updated already~Customer Connect Application launched 
+successfully | Search and Open Personal Profile~Profile should be opened successfully | Select Service Navigator from Go To dropdown~Service Navigator screen should be displayed | Select
+
+Holding or Service = Administration
+Category = Balancing/Administration
+Transaction = Clearings Summary
+
+and Click on Process now button~Customer Connect - Clearings Summary 
+screen should be displayed | Validate the tabbing sequence for all the 
+fields in the Clearings Summary screen and 
+verify the watermark values for each field (if 
+applicable) while performing tabbing 
+sequence~Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field and 
+watermark values should be removed once the 
+focus is tabbed out from the particular field. | Enter below fields
+Transit number
+ Operator Number
+Transaction Date Range
+Currency
+ Enter other optional details, Sequence 
+Number(From and To) 
+ check All operators in Search criteria under 
+Clearings Summary screen and
+Select Scan/Repair from View clearing 
+Items/Transaction details dropdown
+
+and
+
+ click Search push button~Clearings Summary details should be 
+displayed successfully | Select ‘Close’ push button in Clearings 
+Summary screen~System accepts and closed Clearings 
+Summary screen successfully navigate back 
+to Service Navigator screen",GIVEN a personal profile,WHEN Select Clearings Summary transaction from Service Navigator,THEN validate Clearings Summary details displayed successfully,"Condition:
+Login to Customer Connect Application as Branch User (CSR) 
+Profile : Personal
+Profile Type : Customer
+Signin with valid financial operator ID
+Profile should have all the AML/KYC fields updated already","TC008_Branch User(CSR)_Personal Customer performing Clearing Summary transaction
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect
+Role :Branch User (CSR)",Administration,Customer Connect,Balancing/Clearings,Branch User (CSR),Clearings Summary,Personal,Customer,No,,,,1,"Step 1: Login to Customer Connect Application as 
+Branch User (CSR) 
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Profile should have all the AML/KYC fields 
+updated already | Expected result 1: Customer Connect Application launched 
+successfully
+Step 2: Search and Open Personal Profile | Expected result 2: Profile should be opened successfully
+Step 3: Select Service Navigator from Go To dropdown | Expected result 3: Service Navigator screen should be displayed
+Step 4: Select
+
+Holding or Service = Administration
+Category = Balancing/Administration
+Transaction = Clearings Summary
+
+and Click on Process now button | Expected result 4: Customer Connect - Clearings Summary 
+screen should be displayed
+Step 5: Validate the tabbing sequence for all the 
+fields in the Clearings Summary screen and 
+verify the watermark values for each field (if 
+applicable) while performing tabbing 
+sequence | Expected result 5: Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field and 
+watermark values should be removed once the 
+focus is tabbed out from the particular field.
+Step 6: Enter below fields
+Transit number
+ Operator Number
+Transaction Date Range
+Currency
+ Enter other optional details, Sequence 
+Number(From and To) 
+ check All operators in Search criteria under 
+Clearings Summary screen and
+Select Scan/Repair from View clearing 
+Items/Transaction details dropdown
+
+and
+
+ click Search push button | Expected result 6: Clearings Summary details should be 
+displayed successfully
+Step 7: Select ‘Close’ push button in Clearings 
+Summary screen | Expected result 7: System accepts and closed Clearings 
+Summary screen successfully navigate back 
+to Service Navigator screen"
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899163,TC010 _Branch User (FSM)_Personal customer performing Move Clearing Item transactionand Validate details in Electronic Journal,CCQA_OPT_2023,"TC010 _Branch User (FSM)_Personal customer performing Move Clearing Item transactionand Validate details in Electronic 
+Journal
+
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect
+Role :Branch User (FSM)
+
+Design:
+GIVEN a personal profile
+WHEN perform Clearing Item transaction via Service Navigator
+THEN Validate transaction details information in Electronic Journal 
+
+Condition:
+Login to Customer Connect Application as Branch User (FSM)
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Profile should have all the AML/KYC fields updated already
+
+Need valid Sequence Number & Number of Items to complete the transaction",16,sbote,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Branch User (FSM)
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Profile should have all the AML/KYC fields 
+updated already~Customer Connect Application launched 
+successfully | Search and Open Personal Profile~Profile opened successfully | Select Service Navigator from Go To dropdown~Service Navigator screen should be displayed | Select
+
+Holding or Service = Administration
+Category = Balancing/Administration
+Transaction = Move Clearing Item
+
+and Click on Process now button~Customer Connect - Move Clearing Item screen 
+should be displayed | Validate the tabbing sequence for all the fields 
+in the 'Customer Connect - Move Clearing Item' 
+screen and verify the watermark values for 
+each field (if applicable) while performing 
+tabbing sequence~Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field. | Select 'Encoded' from 'From Type List' 
+dropdown~Encoded' is selected successfully from 'From 
+Type List' dropdown | Enter valid number in 'Sequence Number' field~Entered sequence number is displayed 
+successfully | Enter amount in in 'Item Amount' field~Entered amount is displayed successfully | Select 'Proof' from 'To Type List' dropdown~Proof' is selected successfully from 'To Type 
+List' dropdown | Enter items quantity in 'No of Items' field~Entered quantity item in No of Items field is 
+displayed successfully | Select ‘OK’ push button in Move Clearing Item 
+screen~System accepts and display successfull Host 
+Response pop up window | Click on 'Close' button in the Host response 
+screen~System should close the Host Response pop 
+up and navigate back to Service Navigator 
+screen | Click Inquiries button from Menu bar~Inquiries pop up should be displayed with 
+Inquiry Menu screen | Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button~System should display Electronic Journal 
+screen | Click List button in Electronic Journal screen~System accepts and displays the Electronic 
+Journal Transaction list | Select the Move Clearing Item transaction in 
+Electronic Journal Transaction list and Click 
+Details button~System should display the Move Clearing 
+Item transaction information under 
+Transactions Details grid with Success Host 
+Response details",GIVEN a personal profile,WHEN perform Clearing Item transaction via Service Navigator,THEN Validate transaction details information in Electronic Journal,"Condition:
+Login to Customer Connect Application as Branch User (FSM)
+Profile : Personal
+Profile Type : Customer
+Signin with valid financial operator ID
+Profile should have all the AML/KYC fields updated already
+Need valid Sequence Number & Number of Items to complete the transaction","TC010 _Branch User (FSM)_Personal customer performing Move Clearing Item transactionand Validate details in Electronic 
+Journal
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect
+Role :Branch User (FSM)",Administration,Customer Connect,Balancing/Clearings,Branch User (FSM),Move Clearing Item,Personal,Customer,No,,,,1,"Step 1: Login to Customer Connect Application as 
+Branch User (FSM)
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Profile should have all the AML/KYC fields 
+updated already | Expected result 1: Customer Connect Application launched 
+successfully
+Step 2: Search and Open Personal Profile | Expected result 2: Profile opened successfully
+Step 3: Select Service Navigator from Go To dropdown | Expected result 3: Service Navigator screen should be displayed
+Step 4: Select
+
+Holding or Service = Administration
+Category = Balancing/Administration
+Transaction = Move Clearing Item
+
+and Click on Process now button | Expected result 4: Customer Connect - Move Clearing Item screen 
+should be displayed
+Step 5: Validate the tabbing sequence for all the fields 
+in the 'Customer Connect - Move Clearing Item' 
+screen and verify the watermark values for 
+each field (if applicable) while performing 
+tabbing sequence | Expected result 5: Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field.
+Step 6: Select 'Encoded' from 'From Type List' 
+dropdown | Expected result 6: Encoded' is selected successfully from 'From 
+Type List' dropdown
+Step 7: Enter valid number in 'Sequence Number' field | Expected result 7: Entered sequence number is displayed 
+successfully
+Step 8: Enter amount in in 'Item Amount' field | Expected result 8: Entered amount is displayed successfully
+Step 9: Select 'Proof' from 'To Type List' dropdown | Expected result 9: Proof' is selected successfully from 'To Type 
+List' dropdown
+Step 10: Enter items quantity in 'No of Items' field | Expected result 10: Entered quantity item in No of Items field is 
+displayed successfully
+Step 11: Select ‘OK’ push button in Move Clearing Item 
+screen | Expected result 11: System accepts and display successfull Host 
+Response pop up window
+Step 12: Click on 'Close' button in the Host response 
+screen | Expected result 12: System should close the Host Response pop 
+up and navigate back to Service Navigator 
+screen
+Step 13: Click Inquiries button from Menu bar | Expected result 13: Inquiries pop up should be displayed with 
+Inquiry Menu screen
+Step 14: Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button | Expected result 14: System should display Electronic Journal 
+screen
+Step 15: Click List button in Electronic Journal screen | Expected result 15: System accepts and displays the Electronic 
+Journal Transaction list
+Step 16: Select the Move Clearing Item transaction in 
+Electronic Journal Transaction list and Click 
+Details button | Expected result 16: System should display the Move Clearing 
+Item transaction information under 
+Transactions Details grid with Success Host 
+Response details"
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899164,TC011 Validation of Return Sign In transaction_Validate Electronic Journal,CCQA_OPT_2023,"TC011 Validation of Return Sign In transaction_Validate Electronic Journal
+
+Business Capability : Administration
+Sub Category: Branch/Operator Administration
+Impacted Application: Customer Connect
+Role :Branch User (CSR)
+
+Design:
+GIVEN a personal profile
+WHEN Select Return Sign In transaction in Electronic Journal and Click Details button
+THEN System should display transaction details information on Electronic Journal Transaction
+
+Condition:
+Login to Customer Connect Application as Branch User (CSR) 
+
+Profile : Personal
+Profile Type : Customer
+
+Financial operator is previously connected and currently signed out
+
+Profile should have all the AML/KYC data filled.",12,gashokr,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Branch User (CSR) 
+
+Profile : Personal
+Profile Type : Customer
+
+Financial operator should be connected and 
+signed out
+
+Profile should have all the AML/KYC data 
+filled.~Customer Connect Application launched 
+successfully | Search and Open Personal Profile~Profile opened successfully | Select Service Navigator from Go To dropdown~Customer connect -Service Navigator screen 
+should be displayed | Select
+
+Holding or Service = Administration
+Category = Operator Administration
+Transaction = Return Sign In
+
+and Click on Process now button~Operator Administration pop up is displayed 
+with previously connected financial operator 
+number prefilled .
+
+'Return Sign In' & 'Financial' radio button is 
+selected by default | Validate the tabbing sequence for all the fields 
+in the Operator Administration pop up and verify 
+the watermark values for each field (if 
+applicable) while performing tabbing sequence~Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field. | Select Ok button in Operator Administration pop 
+up~Warning dialogue is displayed as follows;
+
+'Are you sure you want to logon with operator'
+with Yes & No push buttons | Click on Yes button in warning dialogue pop up~Successfull Host response is displayed | Click on Ok button in host response pop up~Operator is successfully connected
+
+System should close host response pop up and 
+Customer Connect - Service Navigator screen 
+should be displayed | Click Inquiries button from Menu bar~Inquiries pop up should be displayed with 
+Inquiry Menu screen | Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button~System should display Electronic Journal 
+screen | Click List button in Electronic Journal screen~System accepts and displays the list of 
+transactions captured in Electronic Journal | Select the Return Sign In transaction in 
+Electronic Journal and Click Details button~System should display Return Sign In 
+transaction information under Transactions 
+Details grid
+
+Success Host Response should be displayed 
+under Host response section",GIVEN a personal profile,WHEN Select Return Sign In transaction in Electronic Journal and Click Details button,THEN System should display transaction details information on Electronic Journal Transaction,"Condition:
+Login to Customer Connect Application as Branch User (CSR) 
+Profile : Personal
+Profile Type : Customer
+Financial operator is previously connected and currently signed out
+Profile should have all the AML/KYC data filled.","TC011 Validation of Return Sign In transaction_Validate Electronic Journal
+Business Capability : Administration
+Sub Category: Branch/Operator Administration
+Impacted Application: Customer Connect
+Role :Branch User (CSR)",Administration,Customer Connect,Branch/Operator Administration,Branch User (CSR),Return Sign In,Personal,Customer,No,,,,1,"Step 1: Login to Customer Connect Application as 
+Branch User (CSR) 
+
+Profile : Personal
+Profile Type : Customer
+
+Financial operator should be connected and 
+signed out
+
+Profile should have all the AML/KYC data 
+filled. | Expected result 1: Customer Connect Application launched 
+successfully
+Step 2: Search and Open Personal Profile | Expected result 2: Profile opened successfully
+Step 3: Select Service Navigator from Go To dropdown | Expected result 3: Customer connect -Service Navigator screen 
+should be displayed
+Step 4: Select
+
+Holding or Service = Administration
+Category = Operator Administration
+Transaction = Return Sign In
+
+and Click on Process now button | Expected result 4: Operator Administration pop up is displayed 
+with previously connected financial operator 
+number prefilled .
+
+'Return Sign In' & 'Financial' radio button is 
+selected by default
+Step 5: Validate the tabbing sequence for all the fields 
+in the Operator Administration pop up and verify 
+the watermark values for each field (if 
+applicable) while performing tabbing sequence | Expected result 5: Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field.
+Step 6: Select Ok button in Operator Administration pop 
+up | Expected result 6: Warning dialogue is displayed as follows;
+
+'Are you sure you want to logon with operator'
+with Yes & No push buttons
+Step 7: Click on Yes button in warning dialogue pop up | Expected result 7: Successfull Host response is displayed
+Step 8: Click on Ok button in host response pop up | Expected result 8: Operator is successfully connected
+
+System should close host response pop up and 
+Customer Connect - Service Navigator screen 
+should be displayed
+Step 9: Click Inquiries button from Menu bar | Expected result 9: Inquiries pop up should be displayed with 
+Inquiry Menu screen
+Step 10: Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button | Expected result 10: System should display Electronic Journal 
+screen
+Step 11: Click List button in Electronic Journal screen | Expected result 11: System accepts and displays the list of 
+transactions captured in Electronic Journal
+Step 12: Select the Return Sign In transaction in 
+Electronic Journal and Click Details button | Expected result 12: System should display Return Sign In 
+transaction information under Transactions 
+Details grid
+
+Success Host Response should be displayed 
+under Host response section"
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899165,TC007 Validation of Final Sign Out transaction in  Electronic Journal,CCQA_OPT_2023,"TC005 Validation of Final Sign Out transaction and validate Electronic Journal
+
+Business Capability : Administration
+Sub Category: Branch/Operator Administration
+Impacted Application: Customer Connect
+Role :Branch User (CSR)
+
+Design:
+GIVEN a personal profile
+WHEN Select Final Sign Out transaction in Electronic Journal and Click Details button
+THEN System should display transaction details information on Electronic Journal Transaction
+
+Condition:
+Login to Customer Connect Application as CSR User 
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Profile should have all the AML/KYC fields updated already",9,pkuma76,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Branch User (CSR)
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Profile should have all the AML/KYC fields 
+updated already~Customer Connect Application launched 
+successfully | Search and Open Personal Profile~Profile opened successfully | Select Service Navigator from Go To dropdown~Service Navigator screen should be displayed | Select
+
+Holding or Service = Administration
+Category = Operator Administration
+Transaction = Final Sign Out
+
+and Click on Process now button~Successfull Host Response pop up should be 
+displayed and operator should be Final 
+Signed Out | Select Ok button in host response pop up~System should close the Host Response pop 
+up and ""Customer Connect - Service 
+Navigator ""screen should be displayed | Click Inquiries button from Menu bar~Inquiries pop up should be displayed with 
+""Inquiry Menu screen"" | Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button~System should display"" Electronic Journal 
+screen"" | Click List button in Electronic Journal screen~System accepts and displays the list of 
+transactions captured in Electronic Journal | Select the Final Sign Out transaction in 
+Electronic Journal and Click Details button~System should display Final Sign Out 
+transaction information under Transactions 
+Details grid
+
+Success Host Response should be displayed 
+under Host response section",GIVEN a personal profile,WHEN Select Final Sign Out transaction in Electronic Journal and Click Details button,THEN System should display transaction details information on Electronic Journal Transaction,"Condition:
+Login to Customer Connect Application as CSR User 
+Profile : Personal
+Profile Type : Customer
+Signin with valid financial operator ID
+Profile should have all the AML/KYC fields updated already","TC005 Validation of Final Sign Out transaction and validate Electronic Journal
+Business Capability : Administration
+Sub Category: Branch/Operator Administration
+Impacted Application: Customer Connect
+Role :Branch User (CSR)",Administration,Customer Connect,Branch/Operator Administration,Branch User (CSR),Final Sign Out,Personal,Customer,No,,,,3,"Step 1: Login to Customer Connect Application as 
+Branch User (CSR)
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Profile should have all the AML/KYC fields 
+updated already | Expected result 1: Customer Connect Application launched 
+successfully
+Step 2: Search and Open Personal Profile | Expected result 2: Profile opened successfully
+Step 3: Select Service Navigator from Go To dropdown | Expected result 3: Service Navigator screen should be displayed
+Step 4: Select
+
+Holding or Service = Administration
+Category = Operator Administration
+Transaction = Final Sign Out
+
+and Click on Process now button | Expected result 4: Successfull Host Response pop up should be 
+displayed and operator should be Final 
+Signed Out
+Step 5: Select Ok button in host response pop up | Expected result 5: System should close the Host Response pop 
+up and ""Customer Connect - Service 
+Navigator ""screen should be displayed
+Step 6: Click Inquiries button from Menu bar | Expected result 6: Inquiries pop up should be displayed with 
+""Inquiry Menu screen""
+Step 7: Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button | Expected result 7: System should display"" Electronic Journal 
+screen""
+Step 8: Click List button in Electronic Journal screen | Expected result 8: System accepts and displays the list of 
+transactions captured in Electronic Journal
+Step 9: Select the Final Sign Out transaction in 
+Electronic Journal and Click Details button | Expected result 9: System should display Final Sign Out 
+transaction information under Transactions 
+Details grid
+
+Success Host Response should be displayed 
+under Host response section"
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899174,TC012 Personal customer performing Clearing List Dispatched transaction and Validate details in Electronic Journal,CCQA_OPT_2023,"TC012 Personal customer performing Clearing List Dispatched transaction and Validate details in Electronic Journal
+
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect
+Role :Branch User (CSR)
+
+Design:
+GIVEN a personal profile 
+WHEN Perform Clearing List Dispatched(SPCL 72) transaction
+THEN Validate transaction details in Electronic Journal
+
+Condition:
+Login to Customer Connect Application as Branch User (CSR)
+
+Profile : Personal
+Profile Type : Customer
+
+Sign In with valid financial operator ID
+
+Profile should have all the AML/KYC fields updated already 
+
+Need valid Receiving Transit & Clearing List Date to complete the transaction",14,gashokr,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Branch User (CSR)
+
+Profile : Personal
+Profile Type : Customer
+
+Sign In with valid financial operator ID
+
+Profile should have all the AML/KYC fields 
+updated already 
+
+Need valid Receiving Transit & Clearing List 
+Date to complete the transaction~Customer Connect Application launched 
+successfully | Search and Open Personal Profile~Profile should be opened successfully | Select Service Navigator from Go To dropdown~Service Navigator screen should be displayed | Select
+
+Holding or Service = Administration
+Category = Balancing/Administration
+Transaction = Clearing List Dispatched
+
+and Click on Process now button~Customer Connect - Clearing List 
+Dispatched(SPCL 72) screen should be 
+displayed with ""Regular Clearing List"" radio 
+button selected by default | Validate the tabbing sequence for all the 
+fields in the Clearing List Dispatched (SPCL 
+72) screen and verify the watermark values 
+for each field (if applicable) while performing 
+tabbing sequence~Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field and 
+watermark values should be removed once the 
+focus is tabbed out from the particular field. | Enter transit number in 'Receiving Transit' field~Receiving transit number entered 
+successfully | Enter amount in 'Clearing List Amount' field~Clearing List Amount is entered successfully | Enter date in 'Clearing List Date' field~Clearing List Date is entered successfully | Select ‘OK’ push button in Clearing List 
+Dispatched(SPCL 72) screen~System accepts and displayed successfully 
+Host Response pop up | Click Close push button in the Host response 
+screen~System dismissed the Host Response pop 
+up and Navigates to Service Navigator screen | Click Inquiries button from Menu bar~Inquiries pop up should be displayed with 
+Inquiry Menu screen | Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button~System should display Electronic Journal 
+screen | Click List button in Electronic Journal screen~System accepts and displays the list of 
+transactions captured in Electronic Journal | Select the Clearing List Dispatched(SPCL 72) 
+transaction details in Electronic Journal 
+transaction list and Click Details button~System should display Clearing List 
+Dispatched(SPCL 72) transaction 
+information under  Transactions Details grid.
+
+Success Host Response details should be 
+displayed under Transaction details section",GIVEN a personal profile,WHEN Perform Clearing List Dispatched(SPCL 72) transaction,THEN Validate transaction details in Electronic Journal,"Condition:
+Login to Customer Connect Application as Branch User (CSR)
+Profile : Personal
+Profile Type : Customer
+Sign In with valid financial operator ID
+Profile should have all the AML/KYC fields updated already 
+Need valid Receiving Transit & Clearing List Date to complete the transaction","TC012 Personal customer performing Clearing List Dispatched transaction and Validate details in Electronic Journal
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect
+Role :Branch User (CSR)",Administration,Customer Connect,Balancing/Clearings,Branch User (CSR),Clearing List Dispatched,Personal,Customer,No,,,,1,"Step 1: Login to Customer Connect Application as 
+Branch User (CSR)
+
+Profile : Personal
+Profile Type : Customer
+
+Sign In with valid financial operator ID
+
+Profile should have all the AML/KYC fields 
+updated already 
+
+Need valid Receiving Transit & Clearing List 
+Date to complete the transaction | Expected result 1: Customer Connect Application launched 
+successfully
+Step 2: Search and Open Personal Profile | Expected result 2: Profile should be opened successfully
+Step 3: Select Service Navigator from Go To dropdown | Expected result 3: Service Navigator screen should be displayed
+Step 4: Select
+
+Holding or Service = Administration
+Category = Balancing/Administration
+Transaction = Clearing List Dispatched
+
+and Click on Process now button | Expected result 4: Customer Connect - Clearing List 
+Dispatched(SPCL 72) screen should be 
+displayed with ""Regular Clearing List"" radio 
+button selected by default
+Step 5: Validate the tabbing sequence for all the 
+fields in the Clearing List Dispatched (SPCL 
+72) screen and verify the watermark values 
+for each field (if applicable) while performing 
+tabbing sequence | Expected result 5: Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field and 
+watermark values should be removed once the 
+focus is tabbed out from the particular field.
+Step 6: Enter transit number in 'Receiving Transit' field | Expected result 6: Receiving transit number entered 
+successfully
+Step 7: Enter amount in 'Clearing List Amount' field | Expected result 7: Clearing List Amount is entered successfully
+Step 8: Enter date in 'Clearing List Date' field | Expected result 8: Clearing List Date is entered successfully
+Step 9: Select ‘OK’ push button in Clearing List 
+Dispatched(SPCL 72) screen | Expected result 9: System accepts and displayed successfully 
+Host Response pop up
+Step 10: Click Close push button in the Host response 
+screen | Expected result 10: System dismissed the Host Response pop 
+up and Navigates to Service Navigator screen
+Step 11: Click Inquiries button from Menu bar | Expected result 11: Inquiries pop up should be displayed with 
+Inquiry Menu screen
+Step 12: Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button | Expected result 12: System should display Electronic Journal 
+screen
+Step 13: Click List button in Electronic Journal screen | Expected result 13: System accepts and displays the list of 
+transactions captured in Electronic Journal
+Step 14: Select the Clearing List Dispatched(SPCL 72) 
+transaction details in Electronic Journal 
+transaction list and Click Details button | Expected result 14: System should display Clearing List 
+Dispatched(SPCL 72) transaction 
+information under  Transactions Details grid.
+
+Success Host Response details should be 
+displayed under Transaction details section"
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899177,TC014 Validation of  Suspense Items Processing-Clearing Transaction,CCQA_OPT_2023,"TC014 Validation of  Suspense Items Processing-Clearing Transaction
+
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect
+Role :Branch User (CSR)
+
+Design:
+GIVEN a personal profile having a Primary Chequing Account 
+WHEN Select  Suspense Items Processing- Clearing transaction in Electronic Journal and Click Details button
+THEN System should display transaction details information on Electronic Journal Transaction
+
+Condition:
+Login to Customer Connect Application as Branch User (CSR)
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial Operator ID
+
+Profile should have all the AML/KYC fields updated already.
+
+Profile should have valid Primary Chequing Account",18,nkuma48,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Branch User (CSR)
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial Operator ID
+
+Profile should have all the AML/KYC fields 
+updated already.
+
+Profile should  have Valid Primary Chequing 
+Account~Customer Connect Application launched 
+successfully | Search and Open Personal Profile~Profile opened successfully | Select Service Navigator from Go To dropdown~Service Navigator screen should be displayed | Select
+
+Holding or Service = Administration
+Category = Balancing\Administration
+Transaction = Suspense item proccessing
+
+Click on Process now button~Customer Connect- Suspense item(SPCL 55) 
+screen displayed with ""Origination"" radio 
+button selected defaultly | Validate the tabbing sequence for all the 
+fields in the Customer Connect- Suspense 
+item(SPCL 55) screen 
+and verify the watermark values for each 
+field (if applicable) while performing tabbing 
+sequence~Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field. | Select ""Clearing"" Radio button under Entry Type 
+section~Radio button selected successfully | Enter values in the ""Match Number"" field 
+(Ex: 00011)~Match Number entered successfully | Select any value from the  Item Type dropdown~Dropdown value selected successfully | Select Debit radio button under 
+""Source/Desposition of Funds to be Credited or 
+Debited"" section~Radio button selected successfully | Select ""General Ledger"" radio button 
+Enter Mandatory Details G/L number and amount~Mandatory Details are entered succesfully | Click on Explanation push button~System should display Explanation pop up | Enter the explanation in ""Line 1"" and ""Line 2"" 
+fields and Click  ""OK"" button~Enter the explanation in ""Line 1"" and ""Line 2"" 
+fields and Click  ""OK"" button | Select 'ok' push button in Suspense item (SPCL 55)~Successfull Host Response screen is 
+displayed with profile, close, overrride, help 
+buttons | Click Profile push button in the Host response 
+screen~System should dismiss the Host Response 
+pop up  and Navigates back Profile screen | Click Inquiries button from Menu bar~Inquiries pop up should be displayed with 
+Inquiry Menu screen | Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button~System should display Electronic Journal 
+screen | Click List button in Electronic Journal screen~System accepts and displays the list of 
+transactions captured in Electronic Journal | Select the Suspense item (SPCL 55)
+ In transaction in Electronic Journal and Click 
+Details button~System should display  Suspense item (SPCL 
+55) In transaction information under 
+Transactions Details grid
+
+Successfull Host Response details should be 
+displayed under Transaction details section",GIVEN a personal profile having a Primary Chequing Account,WHEN Select  Suspense Items Processing- Clearing transaction in Electronic Journal and Click Details button,THEN System should display transaction details information on Electronic Journal Transaction,"Condition:
+Login to Customer Connect Application as Branch User (CSR)
+Profile : Personal
+Profile Type : Customer
+Signin with valid financial Operator ID
+Profile should have all the AML/KYC fields updated already.
+Profile should have valid Primary Chequing Account","TC014 Validation of  Suspense Items Processing-Clearing Transaction
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect
+Role :Branch User (CSR)",Administration,Customer Connect,Balancing/Clearings,Branch User (CSR),Suspense Item Processing,Personal,Customer,No,,,,2,"Step 1: Login to Customer Connect Application as 
+Branch User (CSR)
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial Operator ID
+
+Profile should have all the AML/KYC fields 
+updated already.
+
+Profile should  have Valid Primary Chequing 
+Account | Expected result 1: Customer Connect Application launched 
+successfully
+Step 2: Search and Open Personal Profile | Expected result 2: Profile opened successfully
+Step 3: Select Service Navigator from Go To dropdown | Expected result 3: Service Navigator screen should be displayed
+Step 4: Select
+
+Holding or Service = Administration
+Category = Balancing\Administration
+Transaction = Suspense item proccessing
+
+Click on Process now button | Expected result 4: Customer Connect- Suspense item(SPCL 55) 
+screen displayed with ""Origination"" radio 
+button selected defaultly
+Step 5: Validate the tabbing sequence for all the 
+fields in the Customer Connect- Suspense 
+item(SPCL 55) screen 
+and verify the watermark values for each 
+field (if applicable) while performing tabbing 
+sequence | Expected result 5: Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field.
+Step 6: Select ""Clearing"" Radio button under Entry Type 
+section | Expected result 6: Radio button selected successfully
+Step 7: Enter values in the ""Match Number"" field 
+(Ex: 00011) | Expected result 7: Match Number entered successfully
+Step 8: Select any value from the  Item Type dropdown | Expected result 8: Dropdown value selected successfully
+Step 9: Select Debit radio button under 
+""Source/Desposition of Funds to be Credited or 
+Debited"" section | Expected result 9: Radio button selected successfully
+Step 10: Select ""General Ledger"" radio button 
+Enter Mandatory Details G/L number and amount | Expected result 10: Mandatory Details are entered succesfully
+Step 11: Click on Explanation push button | Expected result 11: System should display Explanation pop up
+Step 12: Enter the explanation in ""Line 1"" and ""Line 2"" 
+fields and Click  ""OK"" button | Expected result 12: Enter the explanation in ""Line 1"" and ""Line 2"" 
+fields and Click  ""OK"" button
+Step 13: Select 'ok' push button in Suspense item (SPCL 55) | Expected result 13: Successfull Host Response screen is 
+displayed with profile, close, overrride, help 
+buttons
+Step 14: Click Profile push button in the Host response 
+screen | Expected result 14: System should dismiss the Host Response 
+pop up  and Navigates back Profile screen
+Step 15: Click Inquiries button from Menu bar | Expected result 15: Inquiries pop up should be displayed with 
+Inquiry Menu screen
+Step 16: Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button | Expected result 16: System should display Electronic Journal 
+screen
+Step 17: Click List button in Electronic Journal screen | Expected result 17: System accepts and displays the list of 
+transactions captured in Electronic Journal
+Step 18: Select the Suspense item (SPCL 55)
+ In transaction in Electronic Journal and Click 
+Details button | Expected result 18: System should display  Suspense item (SPCL 
+55) In transaction information under 
+Transactions Details grid
+
+Successfull Host Response details should be 
+displayed under Transaction details section"
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899178,TC013 Validation of Suspense Items Processing- Originating transaction_Validate Electronic Journal,CCQA_OPT_2023,"TC013 Validation of Suspense Items Processing- Originating transaction_Validate Electronic Journal
+
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect
+Role :Branch User (CSR)
+
+Design:
+GIVEN a personal profile having a Primary Chequing Account 
+WHEN Select  Suspense Items Processing- Originating transaction in Electronic Journal and Click Details button
+THEN System should display transaction details information on Electronic Journal Transaction
+
+Condition:
+Login to Customer Connect Application as Branch User (CSR)
+
+Profile : Personal
+Profile Type : Customer
+
+Sign In with valid financial Operator ID
+
+Profile should have all the AML/KYC fields updated already.
+
+Profile should be having a Primary Chequing Account",21,gashokr,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Branch User (CSR)
+
+Profile : Personal
+Profile Type : Customer
+
+Sign In with valid financial Operator ID
+
+Profile should have all the AML/KYC fields 
+updated already.
+
+Profile should be having a Primary Chequing 
+Account~Customer Connect Application launched 
+successfully | Search and Open Personal Profile~Profile should be opened successfully | Select Service Navigator from Go To dropdown~Service Navigator screen should be displayed | Select
+
+Holding or Service = Administration
+Category = Balancing\Administration
+Transaction = Suspense item processing 
+
+Click on Process now button~Customer Connect- Suspense item(SPCL 55) 
+screen displayed with ""Originating"" radio 
+button selected by default in Entry Type 
+Section | Validate the tabbing sequence for all the 
+fields in the Customer Connect- Suspense 
+item(SPCL 55) screen and verify the 
+watermark values for each field (if applicable) 
+while performing tabbing sequence~Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field and 
+watermark values should be removed once the 
+focus is tabbed out from the particular field. | Click on the 'Item Type' dropdown list and 
+select 'Cash Item' option~Item Type option is selected successfully | Click on the 'Currency' dropdown list and 
+select 'Canadian Dollar(CAD)' option~Currency option is selected successfully | Select 'Credit' radio option in the 
+'Source/Disposition of Funds to be Credited or 
+Debited' section~Credit radio option is selected successfully | Select 'General Ledger' radio option in the 
+Source/Disposition details section~General Ledger' radio option is selected 
+successfully | Enter the GL number into the 'G/L Number' text 
+field~GL number is entered successfully | Enter the Amount into Amount text field~Amount is entered successfully | Click on the 'Explanation' push button~Explanation screen is displayed with OK, 
+Clear,Cancel and Help push button
+
+By default Account statement Explanation  
+language as 'English' is selected | Enter the first line of explanation to appear on 
+account  statement into the 'Line 1' 'text field 
+on the Explanation screen~First line of Explanation is entered 
+successfully | Enter the second line of explanation to appear 
+on account  statement into the 'Line2'  text 
+field on the Explanation screen~Second line of Explanation is entered 
+successfully | Click on the 'Ok' push button on explanation~Explanation' screen gets dismissed.
+
+'Explanation' push button is highlighted | Select ‘OK’ push button in Suspense 
+Item(SPCL 55) screen~System accepts and displayed successfully 
+Host Response pop up with profile , 
+override, close and help push button | Click Profile push button in the Host response 
+screen~System dismissed the Host Response pop 
+up and Navigates to profile screen | Click Inquiries button from Menu bar~Inquiries pop up should be displayed with 
+Inquiry Menu screen | Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button~System should display Electronic Journal 
+screen | Click List button in Electronic Journal screen~System accepts and displays the list of 
+transactions captured in Electronic Journal | Select the Suspense Item(SPCL 55) 
+transaction details in Electronic Journal 
+transaction list and Click Details button~System should display Suspense Item(SPCL 
+55) transaction information under 
+transactions Details grid. 
+
+Success Host Response details should be 
+displayed under Transaction details section",GIVEN a personal profile having a Primary Chequing Account,WHEN Select  Suspense Items Processing- Originating transaction in Electronic Journal and Click Details button,THEN System should display transaction details information on Electronic Journal Transaction,"Condition:
+Login to Customer Connect Application as Branch User (CSR)
+Profile : Personal
+Profile Type : Customer
+Sign In with valid financial Operator ID
+Profile should have all the AML/KYC fields updated already.
+Profile should be having a Primary Chequing Account","TC013 Validation of Suspense Items Processing- Originating transaction_Validate Electronic Journal
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect
+Role :Branch User (CSR)",Administration,Customer Connect,Balancing/Clearings,Branch User (CSR),Suspense Item Processing,Personal,Customer,No,,,,2,"Step 1: Login to Customer Connect Application as 
+Branch User (CSR)
+
+Profile : Personal
+Profile Type : Customer
+
+Sign In with valid financial Operator ID
+
+Profile should have all the AML/KYC fields 
+updated already.
+
+Profile should be having a Primary Chequing 
+Account | Expected result 1: Customer Connect Application launched 
+successfully
+Step 2: Search and Open Personal Profile | Expected result 2: Profile should be opened successfully
+Step 3: Select Service Navigator from Go To dropdown | Expected result 3: Service Navigator screen should be displayed
+Step 4: Select
+
+Holding or Service = Administration
+Category = Balancing\Administration
+Transaction = Suspense item processing 
+
+Click on Process now button | Expected result 4: Customer Connect- Suspense item(SPCL 55) 
+screen displayed with ""Originating"" radio 
+button selected by default in Entry Type 
+Section
+Step 5: Validate the tabbing sequence for all the 
+fields in the Customer Connect- Suspense 
+item(SPCL 55) screen and verify the 
+watermark values for each field (if applicable) 
+while performing tabbing sequence | Expected result 5: Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field and 
+watermark values should be removed once the 
+focus is tabbed out from the particular field.
+Step 6: Click on the 'Item Type' dropdown list and 
+select 'Cash Item' option | Expected result 6: Item Type option is selected successfully
+Step 7: Click on the 'Currency' dropdown list and 
+select 'Canadian Dollar(CAD)' option | Expected result 7: Currency option is selected successfully
+Step 8: Select 'Credit' radio option in the 
+'Source/Disposition of Funds to be Credited or 
+Debited' section | Expected result 8: Credit radio option is selected successfully
+Step 9: Select 'General Ledger' radio option in the 
+Source/Disposition details section | Expected result 9: General Ledger' radio option is selected 
+successfully
+Step 10: Enter the GL number into the 'G/L Number' text 
+field | Expected result 10: GL number is entered successfully
+Step 11: Enter the Amount into Amount text field | Expected result 11: Amount is entered successfully
+Step 12: Click on the 'Explanation' push button | Expected result 12: Explanation screen is displayed with OK, 
+Clear,Cancel and Help push button
+
+By default Account statement Explanation  
+language as 'English' is selected
+Step 13: Enter the first line of explanation to appear on 
+account  statement into the 'Line 1' 'text field 
+on the Explanation screen | Expected result 13: First line of Explanation is entered 
+successfully
+Step 14: Enter the second line of explanation to appear 
+on account  statement into the 'Line2'  text 
+field on the Explanation screen | Expected result 14: Second line of Explanation is entered 
+successfully
+Step 15: Click on the 'Ok' push button on explanation | Expected result 15: Explanation' screen gets dismissed.
+
+'Explanation' push button is highlighted
+Step 16: Select ‘OK’ push button in Suspense 
+Item(SPCL 55) screen | Expected result 16: System accepts and displayed successfully 
+Host Response pop up with profile , 
+override, close and help push button
+Step 17: Click Profile push button in the Host response 
+screen | Expected result 17: System dismissed the Host Response pop 
+up and Navigates to profile screen
+Step 18: Click Inquiries button from Menu bar | Expected result 18: Inquiries pop up should be displayed with 
+Inquiry Menu screen
+Step 19: Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button | Expected result 19: System should display Electronic Journal 
+screen
+Step 20: Click List button in Electronic Journal screen | Expected result 20: System accepts and displays the list of 
+transactions captured in Electronic Journal
+Step 21: Select the Suspense Item(SPCL 55) 
+transaction details in Electronic Journal 
+transaction list and Click Details button | Expected result 21: System should display Suspense Item(SPCL 
+55) transaction information under 
+transactions Details grid. 
+
+Success Host Response details should be 
+displayed under Transaction details section"
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899186,TC015 Validation of Cross Entry Transcation_Validate Electronic Journal,CCQA_OPT_2023,"TC015 Validation of Cross Entry Transcation_Validate Electronic Journal
+
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect
+Role :Branch User (FSM)
+
+Design:
+GIVEN a personal profile
+WHEN Select Cross Entry transcation
+THEN Request action Purchase from Treasury details displayed successfully
+
+Condition:
+Login to Customer Connect Application as Branch User(FSM) 
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial operator ID
+
+Profile should have valid Primary chequing Account
+
+Profile should have all the AML/KYC fields updated already",13,pkuma76,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Branch User(FSM) 
+
+Profile : Personal
+Profile Type : Customer
+
+Sign In with valid financial operator ID
+
+Profile should have valid Primary chequing 
+Account
+
+Profile should have all the AML/KYC fields 
+updated already~Customer Connect Application launched 
+successfully | Search and Open Personal Profile~Profile should be opened successfully | Select Service Navigator from Go To dropdown~Service Navigator screen should be displayed | Select
+
+Holding or Service = Administration
+Category = Balancing/Administration
+Transaction = Cross Entry
+
+and Click on Process now button~Customer Connect - Cross Entry screen 
+should be displayed with ""Purchase from 
+Treasury"" radio button selected under 
+Requested Action section by default | Validate the tabbing sequence for all the 
+fields in the Cross Entry screen and verify the 
+watermark values for each field (if applicable) 
+while performing tabbing sequence~Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field and 
+watermark values should be removed once the 
+focus is tabbed out from the particular field. | Enter amount and select check box USD (if 
+applicable) in requested action under Cross 
+Entry screen~Amount is entered successfully | Enter date in requested action under Cross 
+Entry screen~Date is entered successfully | Select ‘OK’ push button in Cross Entry Screen~System accepts and displayed successfully 
+Host Response pop up with Close, Recall, 
+Override and help push button | Select ‘Close’ push button in Cross Entry 
+screen~System accepts and closed Cross Entry 
+screen successfully and navigate back to 
+Service Navigator screen | Click Inquiries button from Menu bar~Inquiries pop up should be displayed with 
+Inquiry Menu screen | Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button~System should display Electronic Journal 
+screen | Click List button in Electronic Journal screen~System accepts and displays the list of 
+transactions captured in Electronic Journal | Select the Last  transaction details in 
+Electronic Journal transaction list and Click 
+Details button~Success Host Response should be displayed",GIVEN a personal profile,WHEN Select Cross Entry transcation,THEN Request action Purchase from Treasury details displayed successfully,"Condition:
+Login to Customer Connect Application as Branch User(FSM) 
+Profile : Personal
+Profile Type : Customer
+Signin with valid financial operator ID
+Profile should have valid Primary chequing Account
+Profile should have all the AML/KYC fields updated already","TC015 Validation of Cross Entry Transcation_Validate Electronic Journal
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect
+Role :Branch User (FSM)",Administration,Customer Connect,Balancing/Clearings,Branch User (FSM),Cross Entry,Personal,Customer,No,,,,2,"Step 1: Login to Customer Connect Application as 
+Branch User(FSM) 
+
+Profile : Personal
+Profile Type : Customer
+
+Sign In with valid financial operator ID
+
+Profile should have valid Primary chequing 
+Account
+
+Profile should have all the AML/KYC fields 
+updated already | Expected result 1: Customer Connect Application launched 
+successfully
+Step 2: Search and Open Personal Profile | Expected result 2: Profile should be opened successfully
+Step 3: Select Service Navigator from Go To dropdown | Expected result 3: Service Navigator screen should be displayed
+Step 4: Select
+
+Holding or Service = Administration
+Category = Balancing/Administration
+Transaction = Cross Entry
+
+and Click on Process now button | Expected result 4: Customer Connect - Cross Entry screen 
+should be displayed with ""Purchase from 
+Treasury"" radio button selected under 
+Requested Action section by default
+Step 5: Validate the tabbing sequence for all the 
+fields in the Cross Entry screen and verify the 
+watermark values for each field (if applicable) 
+while performing tabbing sequence | Expected result 5: Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field and 
+watermark values should be removed once the 
+focus is tabbed out from the particular field.
+Step 6: Enter amount and select check box USD (if 
+applicable) in requested action under Cross 
+Entry screen | Expected result 6: Amount is entered successfully
+Step 7: Enter date in requested action under Cross 
+Entry screen | Expected result 7: Date is entered successfully
+Step 8: Select ‘OK’ push button in Cross Entry Screen | Expected result 8: System accepts and displayed successfully 
+Host Response pop up with Close, Recall, 
+Override and help push button
+Step 9: Select ‘Close’ push button in Cross Entry 
+screen | Expected result 9: System accepts and closed Cross Entry 
+screen successfully and navigate back to 
+Service Navigator screen
+Step 10: Click Inquiries button from Menu bar | Expected result 10: Inquiries pop up should be displayed with 
+Inquiry Menu screen
+Step 11: Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button | Expected result 11: System should display Electronic Journal 
+screen
+Step 12: Click List button in Electronic Journal screen | Expected result 12: System accepts and displays the list of 
+transactions captured in Electronic Journal
+Step 13: Select the Last  transaction details in 
+Electronic Journal transaction list and Click 
+Details button | Expected result 13: Success Host Response should be displayed"
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899200,TC016 Validation of Sundry Financials Transaction Processing & Verification in Electronic Journal,CCQA_OPT_2023,"TC016 Validation of Sundry Financials Transaction Processing & Verification in Electronic Journal 
+
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect
+Role :Branch User 
+
+Design:
+GIVEN a personal profile having a Primary Chequing Account 
+WHEN user performs sundry financial transaction 
+THEN correct host response recieved successfully
+
+Condition:
+
+Login to Customer Connect Application as Branch User 
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial Operator ID
+
+Profile should have all the AML/KYC fields updated already.
+
+Profile should be having a Primary Chequing Account and  valid Credit Card",11,pkaleka,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Branch User
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial Operator ID
+
+Profile should have all the AML/KYC fields 
+updated already.
+
+Profile should be having a Primary Chequing 
+Account & Credit Card~Customer Connect Application launched 
+successfully | Search and Open Personal Profile~Profile opened successfully | Select Service Navigator from Go To dropdown~Service Navigator screen should be displayed | Select
+
+Holding or Service = Administration
+Category = Balancing\Administration
+Transaction = Sundry Financials
+Click on Process now button~Customer Connect-Sundry Financials (SPCL 70) screen displayed. | Validate the tabbing sequence for all the 
+fields in the Customer Connect- Sundry 
+Financials (SPCL 70) screen 
+and verify the watermark values for each 
+field (if applicable) while performing tabbing 
+sequence~Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field. | ""Select 'Two' Radio push button in Number of 
+General Ledger account section
+
+Debit General Ledger - Select 'Other' radio 
+button. 
+
+Enter G/L Number and G/L Amount
+Ex-111-131
+Credit General Ledger - Enter G/L Number
+Ex-111-120
+Click on Ok""~Sucessfull Host Response should be displayed | Click Close push button in the Host response 
+screen~System should dismiss the Host Response 
+pop up  and Navigates back Service 
+Navigator screen | Click Inquiries button from Menu bar~Inquiries pop up should be displayed with 
+Inquiry Menu screen | Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button~System should display Electronic Journal 
+screen | Click List button in Electronic Journal screen~System accepts and displays the list of 
+transactions captured in Electronic Journal | Select the Sundry Financials (SPCL 70)
+ In transaction in Electronic Journal and Click 
+Details button~Successfull Host Response should be 
+displayed under Host response section",GIVEN a personal profile having a Primary Chequing Account,WHEN user performs sundry financial transaction,THEN correct host response recieved successfully,"Condition:
+Login to Customer Connect Application as Branch User 
+Profile : Personal
+Profile Type : Customer
+Signin with valid financial Operator ID
+Profile should have all the AML/KYC fields updated already.
+Profile should be having a Primary Chequing Account and  valid Credit Card","TC016 Validation of Sundry Financials Transaction Processing & Verification in Electronic Journal 
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect
+Role :Branch User",Administration,Customer Connect,Balancing/Clearings,Branch User,Sundry Financial,Personal,Customer,No,,,,1,"Step 1: Login to Customer Connect Application as 
+Branch User
+
+Profile : Personal
+Profile Type : Customer
+
+Signin with valid financial Operator ID
+
+Profile should have all the AML/KYC fields 
+updated already.
+
+Profile should be having a Primary Chequing 
+Account & Credit Card | Expected result 1: Customer Connect Application launched 
+successfully
+Step 2: Search and Open Personal Profile | Expected result 2: Profile opened successfully
+Step 3: Select Service Navigator from Go To dropdown | Expected result 3: Service Navigator screen should be displayed
+Step 4: Select
+
+Holding or Service = Administration
+Category = Balancing\Administration
+Transaction = Sundry Financials
+Click on Process now button | Expected result 4: Customer Connect-Sundry Financials (SPCL 70) screen displayed.
+Step 5: Validate the tabbing sequence for all the 
+fields in the Customer Connect- Sundry 
+Financials (SPCL 70) screen 
+and verify the watermark values for each 
+field (if applicable) while performing tabbing 
+sequence | Expected result 5: Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field.
+Step 6: ""Select 'Two' Radio push button in Number of 
+General Ledger account section
+
+Debit General Ledger - Select 'Other' radio 
+button. 
+
+Enter G/L Number and G/L Amount
+Ex-111-131
+Credit General Ledger - Enter G/L Number
+Ex-111-120
+Click on Ok"" | Expected result 6: Sucessfull Host Response should be displayed
+Step 7: Click Close push button in the Host response 
+screen | Expected result 7: System should dismiss the Host Response 
+pop up  and Navigates back Service 
+Navigator screen
+Step 8: Click Inquiries button from Menu bar | Expected result 8: Inquiries pop up should be displayed with 
+Inquiry Menu screen
+Step 9: Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button | Expected result 9: System should display Electronic Journal 
+screen
+Step 10: Click List button in Electronic Journal screen | Expected result 10: System accepts and displays the list of 
+transactions captured in Electronic Journal
+Step 11: Select the Sundry Financials (SPCL 70)
+ In transaction in Electronic Journal and Click 
+Details button | Expected result 11: Successfull Host Response should be 
+displayed under Host response section"
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899223,TC017 Validation of Inter Branch Transfer Transaction by Employee Gateway,CCQA_OPT_2023,"TC017 Validation of Inter Branch Transfer Transaction by Employee Gateway
+
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect
+Role :Branch User (CSR)
+
+Design:
+GIVEN a Employee gateway
+WHEN  Select Inter Branch Transfer in Electronic Journal and Click Details button
+THEN System should display transaction details information on Electronic Journal Transaction
+
+Condition:
+Login to Customer Connect Application as Branch User(CSR)
+
+Gateway - Employee Gateway
+
+Sign in with valid financial operator ID
+
+Need valid bank account number and General Ledger Number
+
+Need Receiving transit number details",12,pkaleka,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Branch User(CSR)
+
+Gateway - Employee Gateway
+
+Sign in with valid financial operator ID
+
+Need valid bank account number and General 
+Ledger Number
+
+Need Receiving transit number details~Customer Connect Application launched 
+successfully | Select Employee Gateway push button from 
+toolbar~Employee Gateway Service Navigator screen 
+is displayed successfully | Select
+
+Holding or Service = Administration
+Category = Balancing/Administration
+Transaction = Inter Branch Transfer
+
+Click on Process now button~Inter Branch Transfer screen displays | Validate the tabbing sequence for all the fields in the Customer Connect - Inter Branch Transfer screen and verify the 
+watermark values for each field (if applicable) while performing tabbing sequence~Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field. | Enter Receiving Transit on Inter Branch Transfer 
+screen~Details are entered succesfully | Select Account radion button in Transfer From 
+section and 
+
+Enter  all the below details
+Transit 
+Account number
+Amount~Details are entered succesfully | Enter below details in In Fee section 
+ General Ledger Number = 111-131
+
+Enter Amount value and 
+Addendum = TWST
+
+and Click on OK~Host Response Successfully Displays. | Click Profile push button on the Host response 
+screen~System should close Host response and Navigate back to Service Navigator screen | Click Inquiries button from Menu bar~Inquiries pop up should be displayed with 
+Inquiry Menu screen | Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button~System should display Electronic Journal 
+screen | Click List button in Electronic Journal screen~System accepts and displays the Electronic 
+Journal Transaction list | Select the Inter Branch Transfer Transaction 
+in Electronic Journal and Click Details button~System should display Inter Branch Transfer 
+Transaction information under Transactions 
+Details grid with Success Host Response 
+details",GIVEN a Employee gateway,WHEN  Select Inter Branch Transfer in Electronic Journal and Click Details button,THEN System should display transaction details information on Electronic Journal Transaction,"Condition:
+Login to Customer Connect Application as Branch User(CSR)
+Gateway - Employee Gateway
+Sign in with valid financial operator ID
+Need valid bank account number and General Ledger Number
+Need Receiving transit number details","TC017 Validation of Inter Branch Transfer Transaction by Employee Gateway
+Business Capability : Administration
+Sub Category: Balancing/Clearings
+Impacted Application: Customer Connect
+Role :Branch User (CSR)",Administration,Customer Connect,Balancing/Clearings,Branch User (CSR),Interbranch Transfer,,,Employee,,,,2,"Step 1: Login to Customer Connect Application as 
+Branch User(CSR)
+
+Gateway - Employee Gateway
+
+Sign in with valid financial operator ID
+
+Need valid bank account number and General 
+Ledger Number
+
+Need Receiving transit number details | Expected result 1: Customer Connect Application launched 
+successfully
+Step 2: Select Employee Gateway push button from 
+toolbar | Expected result 2: Employee Gateway Service Navigator screen 
+is displayed successfully
+Step 3: Select
+
+Holding or Service = Administration
+Category = Balancing/Administration
+Transaction = Inter Branch Transfer
+
+Click on Process now button | Expected result 3: Inter Branch Transfer screen displays
+Step 4: Validate the tabbing sequence for all the fields in the Customer Connect - Inter Branch Transfer screen and verify the 
+watermark values for each field (if applicable) while performing tabbing sequence | Expected result 4: Tabbing sequence should be working fine and 
+Focus should be moved to next consecutive 
+fields.
+
+Tabbing is from left to right and only tabs to 
+enabled fields.
+
+Left/Right arrow keys will move focus for radio 
+buttons.
+
+System should display the watermark values (If 
+Applicable) when tabbed into respective field 
+and watermark values should be removed once 
+the focus is tabbed out from the particular field.
+Step 5: Enter Receiving Transit on Inter Branch Transfer 
+screen | Expected result 5: Details are entered succesfully
+Step 6: Select Account radion button in Transfer From 
+section and 
+
+Enter  all the below details
+Transit 
+Account number
+Amount | Expected result 6: Details are entered succesfully
+Step 7: Enter below details in In Fee section 
+ General Ledger Number = 111-131
+
+Enter Amount value and 
+Addendum = TWST
+
+and Click on OK | Expected result 7: Host Response Successfully Displays.
+Step 8: Click Profile push button on the Host response 
+screen | Expected result 8: System should close Host response and Navigate back to Service Navigator screen
+Step 9: Click Inquiries button from Menu bar | Expected result 9: Inquiries pop up should be displayed with 
+Inquiry Menu screen
+Step 10: Select 
+
+Holding Type = General Inquiries
+Inquiry = Electronic Journal
+
+Click OK button | Expected result 10: System should display Electronic Journal 
+screen
+Step 11: Click List button in Electronic Journal screen | Expected result 11: System accepts and displays the Electronic 
+Journal Transaction list
+Step 12: Select the Inter Branch Transfer Transaction 
+in Electronic Journal and Click Details button | Expected result 12: System should display Inter Branch Transfer 
+Transaction information under Transactions 
+Details grid with Success Host Response 
+details"
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Employee Sales and Service Daily Activities (My Day),917939,"TC010 Validate Batch Processing screen with Cancel pb, Successfull host response popup for Batch Totals Update transaction when Click on Batch pb in My Day & Process Batch Totals Update transaction from service navigator_Batch user personal profile",CCQA_OPT_2023,"TC010 Validate Batch Processing screen with Cancel pb, Successfull host response popup for Batch Totals Update 
+transaction when Click on Batch pb in My Day & Process Batch Totals Update transaction from service navigator_Batch user 
+personal profile
+
+Business Capability : Product Servicing
+Sub Category: Batch Processing
+Impacted Application: Customer Connect
+Role : Batch user
+
+DESIGN:
+GIVEN a Personal profile with batch user
+WHEN Click on Batch pb in My Day screen & Process Batch Totals Update transaction from service navigator screen
+THEN Validate Batch Processing screen with Cancel pb, Successfull host response popup for Batch Totals Update 
+transaction
+
+CONDITION:
+Login to Customer Connect Application as Batch User
+
+Profile : Personal
+Profile Type : Customer
+
+Financial operator should be connected
+
+Profile should have all the AML/KYC information filled",8,sbote,MANUAL,Product Servicing,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Batch User
+
+Profile : Personal
+Profile Type : Customer
+
+Financial operator should be connected
+
+Profile should have all the AML/KYC 
+information filled~Customer Connect Application launched 
+successfully
+
+My Day screen is displayed | Click on Batch push button from toolbar in 
+My day screen~Batch Processing screen should be displayed | Click on 'Cancel' selected on Batch 
+Processing screen~My Day screen is displayed successfully | Click on Find Profile push button from toolbar~Find Profile screen is displayed successfully | Search and Open Personal Profile from find 
+profile screen~Profile opened successfully | Select Service Navigator from Go To dropdown~Customer connect -Service Navigator screen 
+should be displayed | Select below options from service navigator 
+screen;
+
+Holding or Service = Administration
+Category = Balancing/Administration
+Transaction = Batch Totals Update
+
+and Click on Process now button~Host Response pop up is dipslayed with Ok & 
+Cancel push buttons | Select Ok button in Host Response pop up~Customer connect -Service Navigator screen 
+should be displayed with previous selections",GIVEN a Personal profile with batch user,WHEN Click on Batch pb in My Day screen & Process Batch Totals Update transaction from service navigator screen,"THEN Validate Batch Processing screen with Cancel pb, Successfull host response popup for Batch Totals Update 
+transaction","CONDITION:
+Login to Customer Connect Application as Batch User
+Profile : Personal
+Profile Type : Customer
+Financial operator should be connected
+Profile should have all the AML/KYC information filled","TC010 Validate Batch Processing screen with Cancel pb, Successfull host response popup for Batch Totals Update 
+transaction when Click on Batch pb in My Day & Process Batch Totals Update transaction from service navigator_Batch user 
+personal profile
+Business Capability : Product Servicing
+Sub Category: Batch Processing
+Impacted Application: Customer Connect
+Role : Batch user",Product Servicing,Customer Connect,Batch Processing,Batch user,Batch Totals Update,Personal,Customer,No,,,,1,"Step 1: Login to Customer Connect Application as 
+Batch User
+
+Profile : Personal
+Profile Type : Customer
+
+Financial operator should be connected
+
+Profile should have all the AML/KYC 
+information filled | Expected result 1: Customer Connect Application launched 
+successfully
+
+My Day screen is displayed
+Step 2: Click on Batch push button from toolbar in 
+My day screen | Expected result 2: Batch Processing screen should be displayed
+Step 3: Click on 'Cancel' selected on Batch 
+Processing screen | Expected result 3: My Day screen is displayed successfully
+Step 4: Click on Find Profile push button from toolbar | Expected result 4: Find Profile screen is displayed successfully
+Step 5: Search and Open Personal Profile from find 
+profile screen | Expected result 5: Profile opened successfully
+Step 6: Select Service Navigator from Go To dropdown | Expected result 6: Customer connect -Service Navigator screen 
+should be displayed
+Step 7: Select below options from service navigator 
+screen;
+
+Holding or Service = Administration
+Category = Balancing/Administration
+Transaction = Batch Totals Update
+
+and Click on Process now button | Expected result 7: Host Response pop up is dipslayed with Ok & 
+Cancel push buttons
+Step 8: Select Ok button in Host Response pop up | Expected result 8: Customer connect -Service Navigator screen 
+should be displayed with previous selections"
