@@ -461,7 +461,7 @@ Profile should have all the AML/KYC fields updated already","TC002 Validation of
 Business Capability : Administration
 Sub Category: Branch/Operator Admin
 Impacted Application: Customer Connect
-Role : Branch User (CSR)",Administration,Customer Connect,Branch/Operator Admin,Branch User (CSR),Final Sign Out|Sign In,Personal,Customer,No,,,,5,"Step 1: Login to Customer Connect Application as 
+Role : Branch User (CSR)",Administration,Customer Connect,Branch/Operator Admin,Branch User (CSR),Final Sign Out|Sign In,Personal,Customer,No,,,,8,"Step 1: Login to Customer Connect Application as 
 Branch User (CSR)
 
 Profile : Personal
@@ -834,7 +834,7 @@ Profile should have all the AML/KYC fields updated already""","""TC004 Commercia
 Business Capability : Administration
 Sub Category: Branch/Operator Admin
 Impacted Application: Customer Connect
-Role : Branch User (FSM)",Administration,Customer Connect,Branch/Operator Admin,Branch User (FSM),Final Sign Out|Sign In,Commercial,Customer,No,,,,5,"Step 1: Login to Customer Connect Application as 
+Role : Branch User (FSM)",Administration,Customer Connect,Branch/Operator Admin,Branch User (FSM),Final Sign Out|Sign In,Commercial,Customer,No,,,,8,"Step 1: Login to Customer Connect Application as 
 Branch User (FSM)
 
 Profile : Commercial
@@ -944,202 +944,6 @@ information under Transactions Details grid
 
 Success Host Response should be displayed 
 under Host response section"""
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899158,TC006 Sell Canada Premium Bonds_Provincial Bonds - Suspense Account Credit transaction_Validate transaction details on Electronic Journal,CCQA_OPT_2023,"TC006 Sell Canada Premium Bonds_Provincial Bonds - Suspense Account Credit transaction_Validate transaction details on 
-Electronic Journal
-
-Business Capability : Administration
-Sub Category: Balancing/Clearings
-Impacted Application: Customer Connect and MECH
-Role :Branch User (CSR)
-
-Design:
-GIVEN a personal profile with a valid EDB account
-WHEN Select  Sell Canada Premium Bonds / Provincial Bonds - Suspense Account Credit transaction in Electronic Journal and 
-Click Details button
-THEN System should display transaction details information on Electronic Journal Transaction
-
-Condition:
-Login to Customer Connect Application as Branch User (CSR)
-
-Profile : Personal
-Profile Type : Customer
-
-Sign in with valid financial operator ID
-
-Profile should have all the AML/KYC data filled
-
-Profile should have a valid EDB account for Sell Canada Premium Bonds / Provincial Bonds - Suspense Account Credit 
-transaction",14,sbote,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
-Branch User (CSR)
-
-Profile : Personal
-Profile Type : Customer
-
-Sign in with valid financial operator ID
-
-Profile should have all the AML/KYC data filled
-
-Profile should have valid EDB account for Sell 
-Canada Premium Bonds / Provincial Bonds - 
-Suspense Account Credit transaction~Customer Connect Application launched 
-successfully | Search and Open Personal Profile~Profile opened successfully | Select Service Navigator from Go To dropdown~Service Navigator screen should be displayed | Select
-
-Holding or Service = Administration
-Category = Balancing/Administration
-Transaction = Sell Canada Premium Bonds / 
-Provincial Bonds - Suspense Account Credit
-
-and Click on Process now button~Customer Connect - Sell Canada Premium 
-Bonds / Provincial Bonds - Suspense 
-Account Credit screen should be displayed 
-with 
-
-'G/L' radio button in Debit General Ledger 
-group box is selected by default and 
-
-with OK, Cancel, Clear and Explantation push 
-buttons | Validate the tabbing sequence for all the fields 
-in the 'Customer Connect - Sell Canada Premium 
-Bonds / Provincial Bonds - Suspense Account 
-Credit' screen and verify the watermark values 
-for each field (if applicable) while performing 
-tabbing sequence~Tabbing sequence should be working fine and 
-Focus should be moved to next consecutive 
-fields.
-
-Tabbing is from left to right and only tabs to 
-enabled fields.
-
-Left/Right arrow keys will move focus for radio 
-buttons.
-
-System should display the watermark values (If 
-Applicable) when tabbed into respective field 
-and watermark values should be removed once 
-the focus is tabbed out from the particular field. | Enter valid Transit & Suspense Account number 
-in respective fields~Transit & Suspense Account number is entered successfully in their respective fields | Select 'Cheque' radio button under Debit General 
-Ledger section~Cheque radio button is selected successfully | Enter the cheque amount in 'Total Cheque 
-Amount' field~Entered amount should be displayed 
-successfully | Enter other optional data i.e. Residence & 
-Explanation and
-
-Select ‘OK’ push button in account credit screen~System accepts and display successfull Host 
-Response pop up window with Profile, Close, 
-Recall,Override and Help push buttons | Click on 'Profile' button in the Host response 
-screen~System should close the Host Response pop 
-up  and Customer Connect - Profile View screen 
-is displayed | Click Inquiries button from Menu bar~Inquiries pop up should be displayed with 
-Inquiry Menu screen | Select 
-
-Holding Type = General Inquiries
-Inquiry = Electronic Journal
-
-Click OK button~System should display Electronic Journal 
-screen | Click List button in Electronic Journal screen~System accepts and displays the Electronic 
-Journal Transaction list | Select the Sell Canada Premium Bonds / 
-Provincial Bonds - Suspense Account Credit 
-transaction in Electronic Journal Transaction list 
-and Click Details button~System should display the transaction 
-information under Transactions Details grid with 
-Success Host Response details",GIVEN a personal profile with a valid EDB account,"WHEN Select  Sell Canada Premium Bonds / Provincial Bonds - Suspense Account Credit transaction in Electronic Journal and 
-Click Details button",THEN System should display transaction details information on Electronic Journal Transaction,"Condition:
-Login to Customer Connect Application as Branch User (CSR)
-Profile : Personal
-Profile Type : Customer
-Sign in with valid financial operator ID
-Profile should have all the AML/KYC data filled
-Profile should have a valid EDB account for Sell Canada Premium Bonds / Provincial Bonds - Suspense Account Credit 
-transaction","TC006 Sell Canada Premium Bonds_Provincial Bonds - Suspense Account Credit transaction_Validate transaction details on 
-Electronic Journal
-Business Capability : Administration
-Sub Category: Balancing/Clearings
-Impacted Application: Customer Connect and MECH
-Role :Branch User (CSR)",Administration,Customer Connect and MECH,Balancing/Clearings,Branch User (CSR),Sell Canada Premium Bonds / Provincial Bonds - Suspense Account Credit,Personal,Customer,No,,,,1,"Step 1: Login to Customer Connect Application as 
-Branch User (CSR)
-
-Profile : Personal
-Profile Type : Customer
-
-Sign in with valid financial operator ID
-
-Profile should have all the AML/KYC data filled
-
-Profile should have valid EDB account for Sell 
-Canada Premium Bonds / Provincial Bonds - 
-Suspense Account Credit transaction | Expected result 1: Customer Connect Application launched 
-successfully
-Step 2: Search and Open Personal Profile | Expected result 2: Profile opened successfully
-Step 3: Select Service Navigator from Go To dropdown | Expected result 3: Service Navigator screen should be displayed
-Step 4: Select
-
-Holding or Service = Administration
-Category = Balancing/Administration
-Transaction = Sell Canada Premium Bonds / 
-Provincial Bonds - Suspense Account Credit
-
-and Click on Process now button | Expected result 4: Customer Connect - Sell Canada Premium 
-Bonds / Provincial Bonds - Suspense 
-Account Credit screen should be displayed 
-with 
-
-'G/L' radio button in Debit General Ledger 
-group box is selected by default and 
-
-with OK, Cancel, Clear and Explantation push 
-buttons
-Step 5: Validate the tabbing sequence for all the fields 
-in the 'Customer Connect - Sell Canada Premium 
-Bonds / Provincial Bonds - Suspense Account 
-Credit' screen and verify the watermark values 
-for each field (if applicable) while performing 
-tabbing sequence | Expected result 5: Tabbing sequence should be working fine and 
-Focus should be moved to next consecutive 
-fields.
-
-Tabbing is from left to right and only tabs to 
-enabled fields.
-
-Left/Right arrow keys will move focus for radio 
-buttons.
-
-System should display the watermark values (If 
-Applicable) when tabbed into respective field 
-and watermark values should be removed once 
-the focus is tabbed out from the particular field.
-Step 6: Enter valid Transit & Suspense Account number 
-in respective fields | Expected result 6: Transit & Suspense Account number is entered successfully in their respective fields
-Step 7: Select 'Cheque' radio button under Debit General 
-Ledger section | Expected result 7: Cheque radio button is selected successfully
-Step 8: Enter the cheque amount in 'Total Cheque 
-Amount' field | Expected result 8: Entered amount should be displayed 
-successfully
-Step 9: Enter other optional data i.e. Residence & 
-Explanation and
-
-Select ‘OK’ push button in account credit screen | Expected result 9: System accepts and display successfull Host 
-Response pop up window with Profile, Close, 
-Recall,Override and Help push buttons
-Step 10: Click on 'Profile' button in the Host response 
-screen | Expected result 10: System should close the Host Response pop 
-up  and Customer Connect - Profile View screen 
-is displayed
-Step 11: Click Inquiries button from Menu bar | Expected result 11: Inquiries pop up should be displayed with 
-Inquiry Menu screen
-Step 12: Select 
-
-Holding Type = General Inquiries
-Inquiry = Electronic Journal
-
-Click OK button | Expected result 12: System should display Electronic Journal 
-screen
-Step 13: Click List button in Electronic Journal screen | Expected result 13: System accepts and displays the Electronic 
-Journal Transaction list
-Step 14: Select the Sell Canada Premium Bonds / 
-Provincial Bonds - Suspense Account Credit 
-transaction in Electronic Journal Transaction list 
-and Click Details button | Expected result 14: System should display the transaction 
-information under Transactions Details grid with 
-Success Host Response details"
 Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899159,TC009 Validation of Amend Deposit Content Counters transaction_Validate Electronic Journal,CCQA_OPT_2023,"TC009 Validation of Amend Deposit Content Counters transaction_Validate Electronic Journal
 
 Business Capability : Administration
@@ -1863,7 +1667,7 @@ Profile should have all the AML/KYC fields updated already","TC005 Validation of
 Business Capability : Administration
 Sub Category: Branch/Operator Administration
 Impacted Application: Customer Connect
-Role :Branch User (CSR)",Administration,Customer Connect,Branch/Operator Administration,Branch User (CSR),Final Sign Out,Personal,Customer,No,,,,3,"Step 1: Login to Customer Connect Application as 
+Role :Branch User (CSR)",Administration,Customer Connect,Branch/Operator Administration,Branch User (CSR),Final Sign Out,Personal,Customer,No,,,,4,"Step 1: Login to Customer Connect Application as 
 Branch User (CSR)
 
 Profile : Personal
@@ -3027,3 +2831,167 @@ and Click on Process now button | Expected result 7: Host Response pop up is dip
 Cancel push buttons
 Step 8: Select Ok button in Host Response pop up | Expected result 8: Customer connect -Service Navigator screen 
 should be displayed with previous selections"
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Operator Administration,89914001,TC002A Validation of Operator Final Sign-Out Transaction,CCQA_OPT_2023,"Validation of the Operator Final Sign-Out Transaction in the Customer Connect application.
+Business Capability: Administration
+Sub Category: Branch/Operator Admin
+Impacted Application: Customer Connect
+Role: Branch User (CSR)
+Design:
+GIVEN a personal profile
+WHEN the Final Sign-Out transaction is initiated and confirmed
+THEN the system should process the sign-out and update the electronic journal
+Condition:
+
+Login to Customer Connect Application as Branch User (CSR)
+Profile: Personal
+Profile Type: Customer
+Sign in with a valid financial operator ID
+Profile should have all AML/KYC fields updated",11,sbote,MANUAL,Administration,P&BB - Branch Operations,1-High,"Login to Customer Connect as a Branch User (CSR)
+Navigate to Service Navigator via ""Go To"" dropdown
+Select:
+Holding or Service: Administration
+Category: Operator Administration
+Transaction: Final Sign Out
+Click Process Now~Host Response pop-up should display available amount status | Click OK in the Host Response pop-up~Operator should be signed out successfully | Click OK in the second Host Response pop-up~System should return to Service Navigator screen | Click Inquiries from the Menu Bar~Inquiries pop-up should appear | Select:
+Holding Type: General Inquiries
+Inquiry: Electronic Journal
+Click OK~System should display the Electronic Journal screen| Click List in the Electronic Journal screen~System should list all captured transactions | Select the Final Sign-Out transaction and click Details~System should display Final Sign-Out transaction details in the Transactions Details Grid
+Success Host Response should be displayed under Host Response Section | Click Close Inquiries~System should close Inquiries screen and return to Service Navigator",GIVEN a personal profile,WHEN the Final Sign-Out transaction is initiated and confirmed,THEN the system should process the sign-out and update the electronic journal,"Condition:
+Login to Customer Connect Application as Branch User (CSR)
+Profile: Personal
+Profile Type: Customer
+Sign in with a valid financial operator ID
+Profile should have all AML/KYC fields updated","Validation of the Operator Final Sign-Out Transaction in the Customer Connect application.
+Business Capability: Administration
+Sub Category: Branch/Operator Admin
+Impacted Application: Customer Connect
+Role: Branch User (CSR)",Administration,Customer Connect,Branch/Operator Admin,Branch User (CSR),Final Sign Out,Personal,Customer,No,,,,4,"Step 1: Login to Customer Connect as a Branch User (CSR)
+Navigate to Service Navigator via ""Go To"" dropdown
+Select:
+Holding or Service: Administration
+Category: Operator Administration
+Transaction: Final Sign Out
+Click Process Now | Expected result 1: Host Response pop-up should display available amount status
+Step 2: Click OK in the Host Response pop-up | Expected result 2: Operator should be signed out successfully
+Step 3: Click OK in the second Host Response pop-up | Expected result 3: System should return to Service Navigator screen
+Step 4: Click Inquiries from the Menu Bar | Expected result 4: Inquiries pop-up should appear
+Step 5: Select:
+Holding Type: General Inquiries
+Inquiry: Electronic Journal
+Click OK | Expected result 5: System should display the Electronic Journal screen
+Step 6: Click List in the Electronic Journal screen | Expected result 6: System should list all captured transactions
+Step 7: Select the Final Sign-Out transaction and click Details | Expected result 7: System should display Final Sign-Out transaction details in the Transactions Details Grid
+Success Host Response should be displayed under Host Response Section
+Step 8: Click Close Inquiries | Expected result 8: System should close Inquiries screen and return to Service Navigator"
+Subject\Rationalized Master Test Bed\Rationization Oct23 No Regret\Operator Administration,89914002,TC002B Validation of Operator Sign-In Transaction,CCQA_OPT_2023,"Validation of the Operator Sign-In Transaction in the Customer Connect application.
+
+Business Capability: Administration
+Sub Category: Branch/Operator Admin
+Impacted Application: Customer Connect
+Role: Branch User (CSR)
+Design:
+GIVEN a personal profile
+WHEN the Sign-In transaction is initiated
+THEN the system should successfully log in the operator and update the electronic journal
+
+Condition:
+
+Login to Customer Connect Application as Branch User (CSR)
+Profile: Personal
+Profile Type: Customer
+Profile should have all AML/KYC fields updated",10,sbote,MANUAL,Administration,P&BB - Branch Operations,1-High,"Login to Customer Connect as a Branch User (CSR)
+Navigate to Service Navigator via ""Go To"" dropdown
+Select:
+Holding or Service: Administration
+Category: Operator Administration
+Transaction: Sign In
+Click Process Now~Operator Administration pop-up should display previously connected financial operator number | Validate the tabbing sequence for all fields and verify watermark values~Tabbing works left to right and skips disabled fields
+Left/Right arrow keys move focus between radio buttons
+Watermark values appear when tabbed into a field and disappear when tabbed out | Enter Valid Operator Number and select Postdate checkbox~Operator number should be entered successfully | Click OK~Warning pop-up:
+""Are you sure you want to log on with this operator?""
+
+With Yes & No buttons | Click Yes~Success message in Information pop-up | Click OK~System returns to Service Navigator screen | Verify transaction in Electronic Journal:
+Click Inquiries
+Select General Inquiries > Electronic Journal
+Click OK ? System displays Electronic Journal
+Click List ? Transaction should appear
+Select Sign-In transaction and click Details~Transaction details should be displayed",GIVEN a personal profile,WHEN the Sign-In transaction is initiated,THEN the system should successfully log in the operator and update the electronic journal,"Condition:
+Login to Customer Connect Application as Branch User (CSR)
+Profile: Personal
+Profile Type: Customer
+Profile should have all AML/KYC fields updated","Validation of the Operator Sign-In Transaction in the Customer Connect application.
+Business Capability: Administration
+Sub Category: Branch/Operator Admin
+Impacted Application: Customer Connect
+Role: Branch User (CSR)",Administration,Customer Connect,Branch/Operator Admin,Branch User (CSR),Sign In,Personal,Customer,No,,,,4,"Step 1: Login to Customer Connect as a Branch User (CSR)
+Navigate to Service Navigator via ""Go To"" dropdown
+Select:
+Holding or Service: Administration
+Category: Operator Administration
+Transaction: Sign In
+Click Process Now | Expected result 1: Operator Administration pop-up should display previously connected financial operator number
+Step 2: Validate the tabbing sequence for all fields and verify watermark values | Expected result 2: Tabbing works left to right and skips disabled fields
+Left/Right arrow keys move focus between radio buttons
+Watermark values appear when tabbed into a field and disappear when tabbed out
+Step 3: Enter Valid Operator Number and select Postdate checkbox | Expected result 3: Operator number should be entered successfully
+Step 4: Click OK | Expected result 4: Warning pop-up:
+""Are you sure you want to log on with this operator?""
+
+With Yes & No buttons
+Step 5: Click Yes | Expected result 5: Success message in Information pop-up
+Step 6: Click OK | Expected result 6: System returns to Service Navigator screen
+Step 7: Verify transaction in Electronic Journal:
+Click Inquiries
+Select General Inquiries > Electronic Journal
+Click OK ? System displays Electronic Journal
+Click List ? Transaction should appear
+Select Sign-In transaction and click Details | Expected result 7: Transaction details should be displayed"
+Subject\Rationalized Master Test Bed\Rationization Oct23 No Regret\Operator Administration,89914003,TC002C Validation of Operator Sign-In with Invalid Operator,CCQA_OPT_2023,"Validation of Operator Sign-In Transaction when using an invalid operator ID in Customer Connect.
+
+Business Capability: Administration
+Sub Category: Branch/Operator Admin
+Impacted Application: Customer Connect
+Role: Branch User (CSR)
+Design:
+GIVEN an invalid operator number
+WHEN the Sign-In transaction is attempted
+THEN the system should prevent login and display an appropriate error message
+
+Condition:
+
+Login to Customer Connect Application as Branch User (CSR)
+Profile: Personal
+Profile Type: Customer",8,sbote,MANUAL,Administration,P&BB - Branch Operations,1-High,"Login to Customer Connect as a Branch User (CSR)
+Navigate to Service Navigator
+Select:
+Holding or Service: Administration
+Category: Operator Administration
+Transaction: Sign In
+Click Process Now~Operator Administration pop-up should display | Enter an Invalid Operator Number~System should validate input and display an error message | Click OK~System should prevent login and show an error pop-up | Verify Error Log in Electronic Journal
+Click Inquiries
+Select General Inquiries > Electronic Journal
+Click OK ? System displays Electronic Journal
+Click List ? The failed transaction should appear
+Select the transaction and click Details~Error response should be displayed | Click Close Inquiries~System should return to Service Navigator",GIVEN an invalid operator number,WHEN the Sign-In transaction is attempted,THEN the system should prevent login and display an appropriate error message,"Condition:
+Login to Customer Connect Application as Branch User (CSR)
+Profile: Personal
+Profile Type: Customer","Validation of Operator Sign-In Transaction when using an invalid operator ID in Customer Connect.
+Business Capability: Administration
+Sub Category: Branch/Operator Admin
+Impacted Application: Customer Connect
+Role: Branch User (CSR)",Administration,Customer Connect,Branch/Operator Admin,Branch User (CSR),Sign In,Personal,Customer,No,,,,4,"Step 1: Login to Customer Connect as a Branch User (CSR)
+Navigate to Service Navigator
+Select:
+Holding or Service: Administration
+Category: Operator Administration
+Transaction: Sign In
+Click Process Now | Expected result 1: Operator Administration pop-up should display
+Step 2: Enter an Invalid Operator Number | Expected result 2: System should validate input and display an error message
+Step 3: Click OK | Expected result 3: System should prevent login and show an error pop-up
+Step 4: Verify Error Log in Electronic Journal
+Click Inquiries
+Select General Inquiries > Electronic Journal
+Click OK ? System displays Electronic Journal
+Click List ? The failed transaction should appear
+Select the transaction and click Details | Expected result 4: Error response should be displayed
+Step 5: Click Close Inquiries | Expected result 5: System should return to Service Navigator"

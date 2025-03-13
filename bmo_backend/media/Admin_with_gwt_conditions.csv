@@ -1,5 +1,5 @@
 Subject,test_case_id,Test Name,Pre-Condition,Description,No of Steps,Designer,Type,Major Functional Area,Business Unit,Complexity,test_steps,GIVEN,WHEN,THEN,Condition,Remaining,Business Capability,Impacted Application,Sub- Category,Role,Transactions,Profile,Profile type,Gateway,Transit Type,LOB,User Language
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Balancing_Clearings,927401.0,TC003_Validation of HostResponse_Validation of Find Cash Transactor Profile Popup_Commercial Profile,CCQA_OPT_2023,"TC003_Validation of HostResponse_Validation of Find Cash Transactor Profile Popup_Commercial Profile
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Balancing_Clearings,927401,TC003_Validation of HostResponse_Validation of Find Cash Transactor Profile Popup_Commercial Profile,CCQA_OPT_2023,"TC003_Validation of HostResponse_Validation of Find Cash Transactor Profile Popup_Commercial Profile
 
 Business Capability : Administration
 Impacted Application: Customer Connect
@@ -18,7 +18,7 @@ Profile: Commercial
 Profile type:Customer
 Financial operator should be Logged In.
 
-Profile Should have all AML/KYC information filled",12.0,rs04,MANUAL,Administration,P&BB - Everyday Banking,2-Medium,"Login to Customer Connect Application as 
+Profile Should have all AML/KYC information filled",12,rs04,MANUAL,Administration,P&BB - Everyday Banking,2-Medium,"Login to Customer Connect Application as 
 Branch User 
 
 Profile: Commercial
@@ -88,7 +88,7 @@ Business Capability : Administration
 Impacted Application: Customer Connect
 Sub- Category : Employee Sales and Service Daily Activies (My Day)
 Role: Branch user",Administration,Customer Connect,Employee Sales and Service Daily Activies (My Day),Branch user,American Express Credit Card,Commercial,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Balancing_Clearings,927545.0,TC003_Validation of Cash for Cash Exchange Screen_Validation of HostResponse_Inquiry Pushbutton_Personal Profile,CCQA_OPT_2023,"TC003_Validation of Cash for Cash Exchange Screen_Validation of HostResponse_Inquiry Pushbutton_Personal Profile
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Balancing_Clearings,927545,TC003_Validation of Cash for Cash Exchange Screen_Validation of HostResponse_Inquiry Pushbutton_Personal Profile,CCQA_OPT_2023,"TC003_Validation of Cash for Cash Exchange Screen_Validation of HostResponse_Inquiry Pushbutton_Personal Profile
 
 Business Capability : Administration
 Impacted Application: Customer Connect
@@ -109,7 +109,7 @@ Profile type:Customer
 Transit Type : Domicile
 Financial operator should be Logged In.
 
-Profile Should have all AML/KYC information filled",10.0,rs04,MANUAL,Administration,P&BB - Branch operations,3-Low,"Login to Customer Connect Application as 
+Profile Should have all AML/KYC information filled",10,rs04,MANUAL,Administration,P&BB - Branch operations,3-Low,"Login to Customer Connect Application as 
 Branch User 
 
 Profile: Personal
@@ -159,7 +159,7 @@ Business Capability : Administration
 Impacted Application: Customer Connect
 Sub- Category : Balancing/Clearing
 Role: Branch user",Administration,Customer Connect,Balancing/Clearing,Branch user,Cash for cash exchange,Personal,Customer,No,Domicile,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Branch_Operator Admin,927382.0,TC002_ Validation of BMO InvestorLine - Deposit Screen_ Select OK when Spousal Contribution value = Yes_Validation of HostResponse_Personal,CCQA_OPT_2023,"TC002_ Validation of BMO InvestorLine - Deposit Screen_ Select OK when Spousal Contribution value = Yes_Validation 
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Branch_Operator Admin,927382,TC002_ Validation of BMO InvestorLine - Deposit Screen_ Select OK when Spousal Contribution value = Yes_Validation of HostResponse_Personal,CCQA_OPT_2023,"TC002_ Validation of BMO InvestorLine - Deposit Screen_ Select OK when Spousal Contribution value = Yes_Validation 
 of HostResponse_Personal
 
 Business Capability : Administration
@@ -182,7 +182,7 @@ Profile type:Customer
 Transit Type : Domicile
 Financial operator should be Logged In.
 
-Profile Should have all AML/KYC information filled",7.0,rs04,MANUAL,Administration,P&BB - Everyday Banking,2-Medium,"Login to Customer Connect Application as 
+Profile Should have all AML/KYC information filled",7,rs04,MANUAL,Administration,P&BB - Everyday Banking,2-Medium,"Login to Customer Connect Application as 
 Branch User 
 
 Profile: Personal
@@ -222,7 +222,7 @@ Business Capability : Administration
 Impacted Application: Customer Connect
 Sub- Category : Employee Sales and Service Daily Activies (My Day)
 Role: Branch user",Administration,Customer Connect,Employee Sales and Service Daily Activies (My Day),Branch user,BMO InvestorLine - Deposit,Personal,Customer,No,Domicile,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Branch_Operator Admin,927539.0,TC003_Validation of MainScreen_My Day Screen_Validation of Administration_Balancing Administration,CCQA_OPT_2023,"TC003_Validation of MainScreen_My Day Screen_Validation of Administration_Balancing Administration
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Branch_Operator Admin,927539,TC003_Validation of MainScreen_My Day Screen_Validation of Administration_Balancing Administration,CCQA_OPT_2023,"TC003_Validation of MainScreen_My Day Screen_Validation of Administration_Balancing Administration
 - Branch Administration_Employee Gateway
 
 Business Capability : Administration
@@ -238,7 +238,7 @@ THEN Service navigator screen is displayed with default transaction as per optio
 CONDITIONS: 
 Login to Customer Connect Application as Branch user
 
-Gateway - Employee Gateway",8.0,rs04,MANUAL,Administration,P&BB - Branch operations,3-Low,"Login to Customer Connect Application as 
+Gateway - Employee Gateway",8,rs04,MANUAL,Administration,P&BB - Branch operations,3-Low,"Login to Customer Connect Application as 
 Branch user
 
 Gateway - Employee Gateway~Customer connect Application launched 
@@ -296,7 +296,7 @@ Business Capability : Administration
 Sub Category: Branch/Operator Admin
 Impacted Application: Customer Connect
 Role :Branch User",Administration,Customer Connect,Branch/Operator Admin,Branch User,Cross Entry | Open or Close Branch,,,Employee,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Branch_Operator Admin,927542.0,TC003_Validation of Account Debit Screen_Validation of HostResponse_General Ledger Number_Personal Profile,CCQA_OPT_2023,"TC003_Validation of Account Debit Screen_Validation of HostResponse_General Ledger Number_Personal Profile
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Branch_Operator Admin,927542,TC003_Validation of Account Debit Screen_Validation of HostResponse_General Ledger Number_Personal Profile,CCQA_OPT_2023,"TC003_Validation of Account Debit Screen_Validation of HostResponse_General Ledger Number_Personal Profile
 
 Business Capability : Administration
 Impacted Application: Customer Connect
@@ -319,7 +319,7 @@ Transit type : Domicile/Non-Domicile
 Profile Should have all AML/KYC information filled and Profile should have valid Bank Account((3999160)
 
 
-Sign in with Valid Financial Operator",6.0,rs04,MANUAL,Administration,P&BB - Branch operations,3-Low,"Login to Customer Connect Application as 
+Sign in with Valid Financial Operator",6,rs04,MANUAL,Administration,P&BB - Branch operations,3-Low,"Login to Customer Connect Application as 
 Branch user
 
 Profile : Personal
@@ -366,7 +366,7 @@ Business Capability : Administration
 Impacted Application: Customer Connect
 Sub- Category : Employee Sales and Service Daily Activies (My Day)
 Role: Branch user",Administration,Customer Connect,Employee Sales and Service Daily Activies (My Day),Branch user,Account Debit,Personal,Customer,No,Domicile/Non-Domicile,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Branch_Operator Admin,927544.0,TC001_Validation of Interbranch Transfer Screen_Validation of HostResponse_Balancing Administration_Personal Profile,CCQA_OPT_2023,"TC001_Validation of Interbranch Transfer Screen_Validation of HostResponse_Balancing Administration_Personal Profile
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Branch_Operator Admin,927544,TC001_Validation of Interbranch Transfer Screen_Validation of HostResponse_Balancing Administration_Personal Profile,CCQA_OPT_2023,"TC001_Validation of Interbranch Transfer Screen_Validation of HostResponse_Balancing Administration_Personal Profile
 Business Capability : Administration
 Impacted Application: Customer Connect
 Sub- Category : Balancing/Clearings
@@ -388,7 +388,7 @@ Transit type : Domicile
 Profile Should have all AML/KYC information filled and Profile should have valid Bank Account((3999160)
 
 
-Sign in with Valid Financial Operator",6.0,rs04,MANUAL,Administration,P&BB - Everyday Banking,2-Medium,"Login to Customer Connect Application as 
+Sign in with Valid Financial Operator",6,rs04,MANUAL,Administration,P&BB - Everyday Banking,2-Medium,"Login to Customer Connect Application as 
 Branch user
 
 Profile : Personal
@@ -430,7 +430,7 @@ Business Capability : Administration
 Impacted Application: Customer Connect
 Sub- Category : Balancing/Clearings
 Role: Branch user",Administration,Customer Connect,Balancing/Clearings,Branch user,Interbranch Transfer,Personal,Customer,No,Domicile,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Branch_Operator Admin,928220.0,TC005_Branch User_Personal Profile_Validation of successful host response for BMO Nesbitt Burns – Deposit  transaction,CCQA_OPT_2023,"TC005_Branch User_Personal Profile_Validation of successful host response for BMO Nesbitt Burns – 
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Branch_Operator Admin,928220,TC005_Branch User_Personal Profile_Validation of successful host response for BMO Nesbitt Burns – Deposit  transaction,CCQA_OPT_2023,"TC005_Branch User_Personal Profile_Validation of successful host response for BMO Nesbitt Burns – 
 Deposit  transaction
 
 Business Capability : Product Servicing
@@ -454,7 +454,7 @@ Sign in with valid financial operator ID
 
 Profile should have all the AML/KYC information filled.
 
-Profile Should have BMO Nesbitt Burns Prime Access Account",6.0,kbheral,MANUAL,Product Servicing,P&BB - Everyday Banking,2-Medium,"Click on Recall Pushbutton in HostResponse~System Accepts and displays Customer 
+Profile Should have BMO Nesbitt Burns Prime Access Account",6,kbheral,MANUAL,Product Servicing,P&BB - Everyday Banking,2-Medium,"Click on Recall Pushbutton in HostResponse~System Accepts and displays Customer 
 Connect-InterBranch Transfer Screen | Login to Customer Connect Application as 
 Branch user.
 
@@ -492,7 +492,7 @@ Business Capability : Product Servicing
 Sub Category: Financials/Deposits
 Impacted Application: Customer Connect
 Role :Branch User",Product Servicing,Customer Connect,Financials/Deposits,Branch User,BMO Nesbitt Burns – Deposit,Personal,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899046.0,TC001 Validation of switch branch by connecting non-finantial transaction,CCQA_OPT_2023,"TC001 Validation of switch branch by connecting non-finantial transaction
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899046,TC001 Validation of switch branch by connecting non-finantial transaction,CCQA_OPT_2023,"TC001 Validation of switch branch by connecting non-finantial transaction
 
 Business Capability : Administration
 Sub Category: Branch/Operator Administration
@@ -508,7 +508,7 @@ CONDITIONS:
 Login to Customer Connect Application as Branch user (CSR)
 
 
-Need valid Non-Financial operator - Branch list available to switch branch",9.0,sbote,MANUAL,Administration,P&BB - Branch operations,1-High,"Enter below details
+Need valid Non-Financial operator - Branch list available to switch branch",9,sbote,MANUAL,Administration,P&BB - Branch operations,1-High,"Enter below details
 
 Spousal contribution eg. yes
 BMO Nesbitt burns A/C No. eg. 3852-8604-02
@@ -562,7 +562,7 @@ Business Capability : Administration
 Sub Category: Branch/Operator Administration
 Impacted Application: Customer Connect
 Role :Branch User (CSR)",Administration,Customer Connect,Branch/Operator Administration,Branch User (CSR),,,,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899135.0,TC044 Validate Customer Connect application initial launch behaviour for Shared User,CCQA_OPT_2023,"TC044 Validate Customer Connect application initial launch behaviour for Shared User
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899135,TC044 Validate Customer Connect application initial launch behaviour for Shared User,CCQA_OPT_2023,"TC044 Validate Customer Connect application initial launch behaviour for Shared User
 
 Business Capability:  Administration
 Impacted Application: Customer Connect
@@ -575,7 +575,7 @@ WHEN Launch Customer Connect from desktop
 THEN validate MY Day screen display
 
 Condition:
-Login to Customer Connect workstation as Shared User",2.0,nkuma48,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect workstation as 
+Login to Customer Connect workstation as Shared User",2,nkuma48,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect workstation as 
 Shared User~Customer Connect workstation lauched 
 successfully  and Sign in page should be 
 displayed | Enter Branch user in pathway connect id 
@@ -594,7 +594,7 @@ Business Capability:  Administration
 Impacted Application: Customer Connect
 Sub- Category: Branch/Operator Admin
 Role: Shared User",Administration,Customer Connect,Branch/Operator Admin,Shared User,,,,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899140.0,TC002 Validation of Operator Sign In_Sign Out transaction_Validate Electronic Journal,CCQA_OPT_2023,"TC002 Validation of Operator Sign In_Sign Out transaction and Validate Electronic Journal 
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899140,TC002 Validation of Operator Sign In_Sign Out transaction_Validate Electronic Journal,CCQA_OPT_2023,"TC002 Validation of Operator Sign In_Sign Out transaction and Validate Electronic Journal 
 
 Business Capability : Administration
 Sub Category: Branch/Operator Admin
@@ -614,7 +614,7 @@ Profile Type : Customer
 
 Signin with valid financial operator ID
 
-Profile should have all the AML/KYC fields updated already",21.0,sbote,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Profile should have all the AML/KYC fields updated already",21,sbote,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Branch User (CSR)
 
 Profile : Personal
@@ -708,7 +708,7 @@ Business Capability : Administration
 Sub Category: Branch/Operator Admin
 Impacted Application: Customer Connect
 Role : Branch User (CSR)",Administration,Customer Connect,Branch/Operator Admin,Branch User (CSR),Final Sign Out | Sign In,Personal,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899147.0,TC003 Validation of Clearing List Recieved transaction_Validate Electronic Journal,CCQA_OPT_2023,"TC003 Validation of Clearing List Recieved transaction_Validate Electronic Journal
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899147,TC003 Validation of Clearing List Recieved transaction_Validate Electronic Journal,CCQA_OPT_2023,"TC003 Validation of Clearing List Recieved transaction_Validate Electronic Journal
 
 Business Capability : Administration
 Sub Category: Balancing/Clearings
@@ -730,7 +730,7 @@ Signin with valid financial operator ID
 
 Profile should have all the AML/KYC fields updated already 
 
-Need valid Dispatching Transit & Clearing List Date to complete the transaction",14.0,sbote,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Need valid Dispatching Transit & Clearing List Date to complete the transaction",14,sbote,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Branch User
 
 Profile : Personal
@@ -798,7 +798,7 @@ Business Capability : Administration
 Sub Category: Balancing/Clearings
 Impacted Application: Customer Connect
 Role : Branch User (CSR)",Administration,Customer Connect,Balancing/Clearings,Branch User (CSR),Clearing List Recieved,Personal,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899149.0,TC003 Validation of Cheques Cashed Transaction and  Electronic Journal Details of the transaction,CCQA_OPT_2023,"TC003 Validation of Cheques Cashed Transaction and  Electronic Journal Details of the transaction
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899149,TC003 Validation of Cheques Cashed Transaction and  Electronic Journal Details of the transaction,CCQA_OPT_2023,"TC003 Validation of Cheques Cashed Transaction and  Electronic Journal Details of the transaction
 
 Business Capability : Administration
 Sub Category: Branch/Operator Administration
@@ -817,7 +817,7 @@ Gateway - Employee Gateway
 
 Sign in with valid financial operator ID
 
-Need valid bank account of CAD",11.0,nkuma48,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Need valid bank account of CAD",11,nkuma48,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Branch User(CSR) 
 
 Gateway - Employee Gateway
@@ -882,7 +882,7 @@ Business Capability : Administration
 Sub Category: Branch/Operator Administration
 Impacted Application: Customer Connect
 Role : Branch User (CSR)",Administration,Customer Connect,Branch/Operator Administration,Branch User (CSR),Cheques Cashed,,,Employee,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899153.0,TC043 Validate Customer Connect application initial launch behaviour for Various User,CCQA_OPT_2023,"TC043 Validate Customer Connect application initial launch behaviour for Various User
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899153,TC043 Validate Customer Connect application initial launch behaviour for Various User,CCQA_OPT_2023,"TC043 Validate Customer Connect application initial launch behaviour for Various User
 
 Business Capability:  Administration
 Impacted Application: Customer Connect
@@ -912,7 +912,7 @@ Mobile Truck user
 
 Laptop user
 
-Batch/Backoffice user",3.0,nkuma48,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect workstation 
+Batch/Backoffice user",3,nkuma48,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect workstation 
 as CSR user login
 
 'Test All'
@@ -962,7 +962,7 @@ Impacted Application: Customer Connect
 Sub- Category: Branch/Operator Admin
 Role: CSR user, FSM user, NACCC user, Indian Ops user, Mobile Branch user, Mobile Truck user, Laptop user & 
 Batch/Backoffice user",Administration,Customer Connect,Branch/Operator Admin,"CSR user, FSM user, NACCC user, Indian Ops user, Mobile Branch user, Mobile Truck user, Laptop user &",,,,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899155.0,TC004 Commercial customer_Valdation of Operator Sign In_Sign Out transaction and Validate Electronic Journal (FSM),CCQA_OPT_2023,"""TC004 Commercial customer_Valdation of Operator Sign In_Sign Out transaction and Validate Electronic Journal (FSM)
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899155,TC004 Commercial customer_Valdation of Operator Sign In_Sign Out transaction and Validate Electronic Journal (FSM),CCQA_OPT_2023,"""TC004 Commercial customer_Valdation of Operator Sign In_Sign Out transaction and Validate Electronic Journal (FSM)
 
 Business Capability : Administration
 Sub Category: Branch/Operator Admin
@@ -982,7 +982,7 @@ Profile Type : Customer
 
 Signin with valid financial operator ID
 
-Profile should have all the AML/KYC fields updated already""",21.0,nkuma48,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Profile should have all the AML/KYC fields updated already""",21,nkuma48,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Branch User (FSM)
 
 Profile : Commercial
@@ -1081,7 +1081,7 @@ Business Capability : Administration
 Sub Category: Branch/Operator Admin
 Impacted Application: Customer Connect
 Role : Branch User (FSM)",Administration,Customer Connect,Branch/Operator Admin,Branch User (FSM),Final Sign Out | Sign In,Commercial,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899158.0,TC006 Sell Canada Premium Bonds_Provincial Bonds - Suspense Account Credit transaction_Validate transaction details on Electronic Journal,CCQA_OPT_2023,"TC006 Sell Canada Premium Bonds_Provincial Bonds - Suspense Account Credit transaction_Validate transaction details on 
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899158,TC006 Sell Canada Premium Bonds_Provincial Bonds - Suspense Account Credit transaction_Validate transaction details on Electronic Journal,CCQA_OPT_2023,"TC006 Sell Canada Premium Bonds_Provincial Bonds - Suspense Account Credit transaction_Validate transaction details on 
 Electronic Journal
 
 Business Capability : Administration
@@ -1106,7 +1106,7 @@ Sign in with valid financial operator ID
 Profile should have all the AML/KYC data filled
 
 Profile should have a valid EDB account for Sell Canada Premium Bonds / Provincial Bonds - Suspense Account Credit 
-transaction",14.0,sbote,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+transaction",14,sbote,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Branch User (CSR)
 
 Profile : Personal
@@ -1192,7 +1192,7 @@ Business Capability : Administration
 Sub Category: Balancing/Clearings
 Impacted Application: Customer Connect and MECH
 Role :Branch User (CSR)",Administration,Customer Connect and MECH,Balancing/Clearings,Branch User (CSR),Sell Canada Premium Bonds /,Personal,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899159.0,TC009 Validation of Amend Deposit Content Counters transaction_Validate Electronic Journal,CCQA_OPT_2023,"TC009 Validation of Amend Deposit Content Counters transaction_Validate Electronic Journal
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899159,TC009 Validation of Amend Deposit Content Counters transaction_Validate Electronic Journal,CCQA_OPT_2023,"TC009 Validation of Amend Deposit Content Counters transaction_Validate Electronic Journal
 
 Business Capability : Administration
 Sub Category: Balancing/Clearings
@@ -1216,7 +1216,7 @@ Profile should have all the AML/KYC fields updated already
 
 Need valid bank account for Amend Deposit Content Counters transaction
 
-Need valid Referance Date to complete the transaction",16.0,sbote,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Need valid Referance Date to complete the transaction",16,sbote,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Branch User 
 
 Profile : Commercial
@@ -1300,7 +1300,7 @@ Business Capability : Administration
 Sub Category: Balancing/Clearings
 Impacted Application: Customer Connect
 Role :Branch User",Administration,Customer Connect,Balancing/Clearings,Branch User,Amend Deposit Content Counters,Commercial,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899161.0,TC008_Branch User(CSR)_Personal Customer performing Clearing Summary transaction,CCQA_OPT_2023,"TC008_Branch User(CSR)_Personal Customer performing Clearing Summary transaction
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899161,TC008_Branch User(CSR)_Personal Customer performing Clearing Summary transaction,CCQA_OPT_2023,"TC008_Branch User(CSR)_Personal Customer performing Clearing Summary transaction
 
 Business Capability : Administration
 Sub Category: Balancing/Clearings
@@ -1320,7 +1320,7 @@ Profile Type : Customer
 
 Signin with valid financial operator ID
 
-Profile should have all the AML/KYC fields updated already",7.0,pkuma76,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Profile should have all the AML/KYC fields updated already",7,pkuma76,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Branch User (CSR) 
 
 Profile : Personal
@@ -1381,7 +1381,7 @@ Business Capability : Administration
 Sub Category: Balancing/Clearings
 Impacted Application: Customer Connect
 Role :Branch User (CSR)",Administration,Customer Connect,Balancing/Clearings,Branch User (CSR),Clearings Summary,Personal,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899163.0,TC010 _Branch User (FSM)_Personal customer performing Move Clearing Item transactionand Validate details in Electronic Journal,CCQA_OPT_2023,"TC010 _Branch User (FSM)_Personal customer performing Move Clearing Item transactionand Validate details in Electronic 
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899163,TC010 _Branch User (FSM)_Personal customer performing Move Clearing Item transactionand Validate details in Electronic Journal,CCQA_OPT_2023,"TC010 _Branch User (FSM)_Personal customer performing Move Clearing Item transactionand Validate details in Electronic 
 Journal
 
 Business Capability : Administration
@@ -1404,7 +1404,7 @@ Signin with valid financial operator ID
 
 Profile should have all the AML/KYC fields updated already
 
-Need valid Sequence Number & Number of Items to complete the transaction",16.0,sbote,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Need valid Sequence Number & Number of Items to complete the transaction",16,sbote,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Branch User (FSM)
 
 Profile : Personal
@@ -1473,7 +1473,7 @@ Business Capability : Administration
 Sub Category: Balancing/Clearings
 Impacted Application: Customer Connect
 Role :Branch User (FSM)",Administration,Customer Connect,Balancing/Clearings,Branch User (FSM),Move Clearing Item,Personal,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899164.0,TC011 Validation of Return Sign In transaction_Validate Electronic Journal,CCQA_OPT_2023,"TC011 Validation of Return Sign In transaction_Validate Electronic Journal
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899164,TC011 Validation of Return Sign In transaction_Validate Electronic Journal,CCQA_OPT_2023,"TC011 Validation of Return Sign In transaction_Validate Electronic Journal
 
 Business Capability : Administration
 Sub Category: Branch/Operator Administration
@@ -1493,7 +1493,7 @@ Profile Type : Customer
 
 Financial operator is previously connected and currently signed out
 
-Profile should have all the AML/KYC data filled.",12.0,gashokr,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Profile should have all the AML/KYC data filled.",12,gashokr,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Branch User (CSR) 
 
 Profile : Personal
@@ -1564,7 +1564,7 @@ Business Capability : Administration
 Sub Category: Branch/Operator Administration
 Impacted Application: Customer Connect
 Role :Branch User (CSR)",Administration,Customer Connect,Branch/Operator Administration,Branch User (CSR),Return Sign In,Personal,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899165.0,TC007 Validation of Final Sign Out transaction in  Electronic Journal,CCQA_OPT_2023,"TC005 Validation of Final Sign Out transaction and validate Electronic Journal
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899165,TC007 Validation of Final Sign Out transaction in  Electronic Journal,CCQA_OPT_2023,"TC005 Validation of Final Sign Out transaction and validate Electronic Journal
 
 Business Capability : Administration
 Sub Category: Branch/Operator Administration
@@ -1584,7 +1584,7 @@ Profile Type : Customer
 
 Signin with valid financial operator ID
 
-Profile should have all the AML/KYC fields updated already",9.0,pkuma76,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Profile should have all the AML/KYC fields updated already",9,pkuma76,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Branch User (CSR)
 
 Profile : Personal
@@ -1628,7 +1628,7 @@ Business Capability : Administration
 Sub Category: Branch/Operator Administration
 Impacted Application: Customer Connect
 Role :Branch User (CSR)",Administration,Customer Connect,Branch/Operator Administration,Branch User (CSR),Final Sign Out,Personal,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899174.0,TC012 Personal customer performing Clearing List Dispatched transaction and Validate details in Electronic Journal,CCQA_OPT_2023,"TC012 Personal customer performing Clearing List Dispatched transaction and Validate details in Electronic Journal
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899174,TC012 Personal customer performing Clearing List Dispatched transaction and Validate details in Electronic Journal,CCQA_OPT_2023,"TC012 Personal customer performing Clearing List Dispatched transaction and Validate details in Electronic Journal
 
 Business Capability : Administration
 Sub Category: Balancing/Clearings
@@ -1650,7 +1650,7 @@ Sign In with valid financial operator ID
 
 Profile should have all the AML/KYC fields updated already 
 
-Need valid Receiving Transit & Clearing List Date to complete the transaction",14.0,gashokr,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Need valid Receiving Transit & Clearing List Date to complete the transaction",14,gashokr,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Branch User (CSR)
 
 Profile : Personal
@@ -1719,7 +1719,7 @@ Business Capability : Administration
 Sub Category: Balancing/Clearings
 Impacted Application: Customer Connect
 Role :Branch User (CSR)",Administration,Customer Connect,Balancing/Clearings,Branch User (CSR),Clearing List Dispatched,Personal,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899177.0,TC014 Validation of  Suspense Items Processing-Clearing Transaction,CCQA_OPT_2023,"TC014 Validation of  Suspense Items Processing-Clearing Transaction
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899177,TC014 Validation of  Suspense Items Processing-Clearing Transaction,CCQA_OPT_2023,"TC014 Validation of  Suspense Items Processing-Clearing Transaction
 
 Business Capability : Administration
 Sub Category: Balancing/Clearings
@@ -1741,7 +1741,7 @@ Signin with valid financial Operator ID
 
 Profile should have all the AML/KYC fields updated already.
 
-Profile should have valid Primary Chequing Account",18.0,nkuma48,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Profile should have valid Primary Chequing Account",18,nkuma48,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Branch User (CSR)
 
 Profile : Personal
@@ -1817,7 +1817,7 @@ Business Capability : Administration
 Sub Category: Balancing/Clearings
 Impacted Application: Customer Connect
 Role :Branch User (CSR)",Administration,Customer Connect,Balancing/Clearings,Branch User (CSR),Suspense item proccessing,Personal,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899178.0,TC013 Validation of Suspense Items Processing- Originating transaction_Validate Electronic Journal,CCQA_OPT_2023,"TC013 Validation of Suspense Items Processing- Originating transaction_Validate Electronic Journal
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899178,TC013 Validation of Suspense Items Processing- Originating transaction_Validate Electronic Journal,CCQA_OPT_2023,"TC013 Validation of Suspense Items Processing- Originating transaction_Validate Electronic Journal
 
 Business Capability : Administration
 Sub Category: Balancing/Clearings
@@ -1839,7 +1839,7 @@ Sign In with valid financial Operator ID
 
 Profile should have all the AML/KYC fields updated already.
 
-Profile should be having a Primary Chequing Account",21.0,gashokr,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Profile should be having a Primary Chequing Account",21,gashokr,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Branch User (CSR)
 
 Profile : Personal
@@ -1927,7 +1927,7 @@ Business Capability : Administration
 Sub Category: Balancing/Clearings
 Impacted Application: Customer Connect
 Role :Branch User (CSR)",Administration,Customer Connect,Balancing/Clearings,Branch User (CSR),Suspense item processing,Personal,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899186.0,TC015 Validation of Cross Entry Transcation_Validate Electronic Journal,CCQA_OPT_2023,"TC015 Validation of Cross Entry Transcation_Validate Electronic Journal
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899186,TC015 Validation of Cross Entry Transcation_Validate Electronic Journal,CCQA_OPT_2023,"TC015 Validation of Cross Entry Transcation_Validate Electronic Journal
 
 Business Capability : Administration
 Sub Category: Balancing/Clearings
@@ -1949,7 +1949,7 @@ Signin with valid financial operator ID
 
 Profile should have valid Primary chequing Account
 
-Profile should have all the AML/KYC fields updated already",13.0,pkuma76,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Profile should have all the AML/KYC fields updated already",13,pkuma76,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Branch User(FSM) 
 
 Profile : Personal
@@ -2015,7 +2015,7 @@ Business Capability : Administration
 Sub Category: Balancing/Clearings
 Impacted Application: Customer Connect
 Role :Branch User (FSM)",Administration,Customer Connect,Balancing/Clearings,Branch User (FSM),Cross Entry,Personal,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899200.0,TC016 Validation of Sundry Financials Transaction Processing & Verification in Electronic Journal,CCQA_OPT_2023,"TC016 Validation of Sundry Financials Transaction Processing & Verification in Electronic Journal 
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899200,TC016 Validation of Sundry Financials Transaction Processing & Verification in Electronic Journal,CCQA_OPT_2023,"TC016 Validation of Sundry Financials Transaction Processing & Verification in Electronic Journal 
 
 Business Capability : Administration
 Sub Category: Balancing/Clearings
@@ -2038,7 +2038,7 @@ Signin with valid financial Operator ID
 
 Profile should have all the AML/KYC fields updated already.
 
-Profile should be having a Primary Chequing Account and  valid Credit Card",11.0,pkaleka,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Profile should be having a Primary Chequing Account and  valid Credit Card",11,pkaleka,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Branch User
 
 Profile : Personal
@@ -2109,7 +2109,7 @@ Business Capability : Administration
 Sub Category: Balancing/Clearings
 Impacted Application: Customer Connect
 Role :Branch User",Administration,Customer Connect,Balancing/Clearings,Branch User,Sundry Financials,Personal,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899223.0,TC017 Validation of Inter Branch Transfer Transaction by Employee Gateway,CCQA_OPT_2023,"TC017 Validation of Inter Branch Transfer Transaction by Employee Gateway
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899223,TC017 Validation of Inter Branch Transfer Transaction by Employee Gateway,CCQA_OPT_2023,"TC017 Validation of Inter Branch Transfer Transaction by Employee Gateway
 
 Business Capability : Administration
 Sub Category: Balancing/Clearings
@@ -2130,7 +2130,7 @@ Sign in with valid financial operator ID
 
 Need valid bank account number and General Ledger Number
 
-Need Receiving transit number details",12.0,pkaleka,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Need Receiving transit number details",12,pkaleka,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Branch User(CSR)
 
 Gateway - Employee Gateway
@@ -2199,7 +2199,7 @@ Business Capability : Administration
 Sub Category: Balancing/Clearings
 Impacted Application: Customer Connect
 Role :Branch User (CSR)",Administration,Customer Connect,Balancing/Clearings,Branch User (CSR),Inter Branch Transfer,,,Employee,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899309.0,TC018 Validation of Laptop User Login (VPN and Non-VPN),CCQA_OPT_2023,"TC018 Validation of Laptop User Login (VPN and Non-VPN)
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration,899309,TC018 Validation of Laptop User Login (VPN and Non-VPN),CCQA_OPT_2023,"TC018 Validation of Laptop User Login (VPN and Non-VPN)
 
 Business Capability : Profile Management
 Impacted Application: Customer Connect
@@ -2221,7 +2221,7 @@ Profile Type:Customer
 
 Sign in with valid financial operator ID
 
-Need both BMO and Non-BMO networks (VPN and Non -VPN) available for connecting the Laptop",11.0,akokitk,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Need both BMO and Non-BMO networks (VPN and Non -VPN) available for connecting the Laptop",11,akokitk,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Mortgage Specialist User
 
 Laptop connected with BMO Network(VPN)
@@ -2259,7 +2259,7 @@ Business Capability : Profile Management
 Impacted Application: Customer Connect
 Sub Category: Validate/Authenticate
 Role : Mortgage Specialist User",Profile Management,Customer Connect,Validate/Authenticate,Mortgage Specialist User,,Personal,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration\eForms,919348.0,TC004 - Validation of My Day Request for FHSA Branch Scan Flow_Accept the document requires signatures With Tablet - No,OPT_DG_2023,"TC004 - Validation of My Day Request for FHSA Branch Scan Flow_Accept the document requires signatures With Tablet - No
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\E2E Administration\eForms,919348,TC004 - Validation of My Day Request for FHSA Branch Scan Flow_Accept the document requires signatures With Tablet - No,OPT_DG_2023,"TC004 - Validation of My Day Request for FHSA Branch Scan Flow_Accept the document requires signatures With Tablet - No
 
 Business Capabilities : Administration
 Sub- Category : Employee Sales and Service Daily Activities (My Day)
@@ -2289,7 +2289,7 @@ Tablet=No
 
 Profile should have the processed FHSA transaction in shopping cart.
 
-User Language: English",13.0,jdasa01,MANUAL,Administration,P&BB - Branch operations,1-High,"Click on "" Predate "" Checkbox and
+User Language: English",13,jdasa01,MANUAL,Administration,P&BB - Branch operations,1-High,"Click on "" Predate "" Checkbox and
 
 Click on "" Ok "" Push button in Account Debit - Multi Branch Banking (DR 50,51,52,53) Screen.~successful Host Response Screen is 
 displayed  and 
@@ -2348,7 +2348,7 @@ Sub- Category : Employee Sales and Service Daily Activities (My Day)
 Impacted Application: Customer Connect
 LOB :P&BB-Branch Operations
 Role : Branch User",Administration,Customer Connect,Employee Sales and Service Daily Activities (My Day),Branch User,FHSA,Personal,Customer,No,,P&BB-Branch Operations,English
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Employee Sales and Service Daily Activities (My Day),917939.0,"TC010 Validate Batch Processing screen with Cancel pb, Successfull host response popup for Batch Totals Update transaction when Click on Batch pb in My Day & Process Batch Totals Update transaction from service navigator_Batch user personal profile",CCQA_OPT_2023,"TC010 Validate Batch Processing screen with Cancel pb, Successfull host response popup for Batch Totals Update 
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Employee Sales and Service Daily Activities (My Day),917939,"TC010 Validate Batch Processing screen with Cancel pb, Successfull host response popup for Batch Totals Update transaction when Click on Batch pb in My Day & Process Batch Totals Update transaction from service navigator_Batch user personal profile",CCQA_OPT_2023,"TC010 Validate Batch Processing screen with Cancel pb, Successfull host response popup for Batch Totals Update 
 transaction when Click on Batch pb in My Day & Process Batch Totals Update transaction from service navigator_Batch user 
 personal profile
 
@@ -2371,7 +2371,7 @@ Profile Type : Customer
 
 Financial operator should be connected
 
-Profile should have all the AML/KYC information filled",8.0,sbote,MANUAL,Product Servicing,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Profile should have all the AML/KYC information filled",8,sbote,MANUAL,Product Servicing,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Batch User
 
 Profile : Personal
@@ -2409,7 +2409,7 @@ Business Capability : Product Servicing
 Sub Category: Batch Processing
 Impacted Application: Customer Connect
 Role : Batch user",Product Servicing,Customer Connect,Batch Processing,Batch user,Batch Totals Update,Personal,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Employee Sales and Service Daily Activities (My Day),927430.0,TC002_ Validation of  creating Service Request_Validate  Customer Complaint and Escalation service request through service navigator_Personal profile,CCQA_OPT_2023,"TC002_ Validation of  creating Service Request_Validate  Customer Complaint and Escalation service request through 
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Employee Sales and Service Daily Activities (My Day),927430,TC002_ Validation of  creating Service Request_Validate  Customer Complaint and Escalation service request through service navigator_Personal profile,CCQA_OPT_2023,"TC002_ Validation of  creating Service Request_Validate  Customer Complaint and Escalation service request through 
 service navigator_Personal profile
 
 Business Capability : Customer Relationship Management
@@ -2430,7 +2430,7 @@ Profile type:Customer
 
 Sign in with valid financial operator ID
 
-Profile Should have all AML/KYC information filled",8.0,rs04,MANUAL,Customer Relationship Management,P&BB - Everyday Banking,2-Medium,"Login to Customer Connect Application as 
+Profile Should have all AML/KYC information filled",8,rs04,MANUAL,Customer Relationship Management,P&BB - Everyday Banking,2-Medium,"Login to Customer Connect Application as 
 Branch User 
 
 Profile: Personal
@@ -2474,7 +2474,7 @@ Business Capability : Customer Relationship Management
 Impacted Application: Customer Connect
 Sub- Category : Service Requests
 Role: Branch user",Customer Relationship Management,Customer Connect,Service Requests,Branch user,,Personal,Customer,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Employee Sales and Service Daily Activities (My Day),927859.0,TC003_Branch user_Validate my opportuinites and My call list quadrant  in my day screen for user assigned with opportunities,CCQA_OPT_2023,"TC003_Branch user_Validate my opportunities and My call list quadrant  in my day screen for user assigned with 
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Employee Sales and Service Daily Activities (My Day),927859,TC003_Branch user_Validate my opportuinites and My call list quadrant  in my day screen for user assigned with opportunities,CCQA_OPT_2023,"TC003_Branch user_Validate my opportunities and My call list quadrant  in my day screen for user assigned with 
 opportunities
 
 
@@ -2494,7 +2494,7 @@ Login to Customer Connect Application as Branch User
 
 Financial operator should be Logged In.
 
-User is assigned with opportunity already",5.0,pamirth,MANUAL,Administration,P&BB - Branch operations,2-Medium,"Login to Customer Connect Application as 
+User is assigned with opportunity already",5,pamirth,MANUAL,Administration,P&BB - Branch operations,2-Medium,"Login to Customer Connect Application as 
 Branch User 
 
 Financial operator should be Logged In.
@@ -2515,7 +2515,7 @@ Business Capability : Administration
 Impacted Application: Customer Connect
 Sub- Category : Employee sales and service daily activites (My day)
 Role: Branch user",Administration,Customer Connect,Employee sales and service daily activites (My day),Branch user,,,,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Employee Sales and Service\ISS003B Ser Nav_Employee Gateway - CONVERTED,917883.0,"TC003 - Branch_Employee Gateway_Validation of Bank To Bank Wire Transfer Screen 3 with Send wire,Amend Wire Details and Print Forms Push button_Offset_no_Booked Deal_No",CCQA_OPT_2023,"TC003 - Branch_Employee Gateway_Validation of Bank To Bank Wire Transfer Screen 3 with Send wire,Amend Wire Details 
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Employee Sales and Service\ISS003B Ser Nav_Employee Gateway - CONVERTED,917883,"TC003 - Branch_Employee Gateway_Validation of Bank To Bank Wire Transfer Screen 3 with Send wire,Amend Wire Details and Print Forms Push button_Offset_no_Booked Deal_No",CCQA_OPT_2023,"TC003 - Branch_Employee Gateway_Validation of Bank To Bank Wire Transfer Screen 3 with Send wire,Amend Wire Details 
 and Print Forms Push button_Offset_no_Booked Deal_No
 
 Business Capability : Product Servicing
@@ -2548,7 +2548,7 @@ City : (Ex :Kitchener)
 
 Province : (Ex : Ontario)
 
-Postal Code : (Ex : N2M1Y2)",14.0,sukum19,MANUAL,Product Servicing,P&BB - Everyday Banking,1-High,"Login to Customer Connect Application as 
+Postal Code : (Ex : N2M1Y2)",14,sukum19,MANUAL,Product Servicing,P&BB - Everyday Banking,1-High,"Login to Customer Connect Application as 
 Branch user
 
 Gateway : Employee 
@@ -2657,7 +2657,7 @@ Business Capability : Product Servicing
 Sub Category : Drafts/Wires/Money Orders
 Impacted application : Customer Connect
 Role : Branch User",Product Servicing,Customer Connect,Drafts/Wires/Money Orders,Branch User,Bank to Bank Wire Transfer,,,Employee,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Employee Sales and Service\ISS003B Ser Nav_Employee Gateway - CONVERTED,917903.0,TC004 - Branch_Employee Gateway_Validation of Bank To Bank Wire Transfer Screen with Difference-Fee Push button  with Clear Push buttons_Warning dialog box Displayed_Offset_Yes_Booked Deal_No,CCQA_OPT_2023,"TC004 - Branch_Employee Gateway_Validation of Bank To Bank Wire Transfer Screen with Difference-Fee Push button  with 
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Employee Sales and Service\ISS003B Ser Nav_Employee Gateway - CONVERTED,917903,TC004 - Branch_Employee Gateway_Validation of Bank To Bank Wire Transfer Screen with Difference-Fee Push button  with Clear Push buttons_Warning dialog box Displayed_Offset_Yes_Booked Deal_No,CCQA_OPT_2023,"TC004 - Branch_Employee Gateway_Validation of Bank To Bank Wire Transfer Screen with Difference-Fee Push button  with 
 Clear Push buttons_Warning dialog box Displayed_Offset_Yes_Booked Deal_No
 
 Business Capability : Product Servicing
@@ -2678,7 +2678,7 @@ Gateway : Employee
 
 Sign in with Valid Financial Operator ID.
 
-Need a Valid Commercial FirstBank Business Investment Account (Ex : 1012 - 8014 - 232).",10.0,sukum19,MANUAL,Product Servicing,P&BB - Everyday Banking,1-High,"Login to Customer Connect Application as 
+Need a Valid Commercial FirstBank Business Investment Account (Ex : 1012 - 8014 - 232).",10,sukum19,MANUAL,Product Servicing,P&BB - Everyday Banking,1-High,"Login to Customer Connect Application as 
 Branch user
 
 Gateway : Employee 
@@ -2747,7 +2747,7 @@ Business Capability : Product Servicing
 Sub Category : Drafts/Wires/Money Orders
 Impacted application : Customer Connect
 Role : Branch User",Product Servicing,Customer Connect,Drafts/Wires/Money Orders,Branch User,Bank to Bank Wire Transfer,,,Employee,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Employee Sales and Service\ISS003B Ser Nav_Employee Gateway - CONVERTED\Display Customer Connect only,916984.0,"TC002 - Employee Gateway_Validation of Explanation Push button and Predate Checkbox_By Branch Radio button_ in Account Debit - Multi Branch Banking (DR 50,51,52,53) Screen_Successful Host Response Screen",CCQA_OPT_2023,"TC002 - Employee Gateway_Validation of Explanation Push button and Predate Checkbox_By Branch Radio button_ in 
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Employee Sales and Service\ISS003B Ser Nav_Employee Gateway - CONVERTED\Display Customer Connect only,916984,"TC002 - Employee Gateway_Validation of Explanation Push button and Predate Checkbox_By Branch Radio button_ in Account Debit - Multi Branch Banking (DR 50,51,52,53) Screen_Successful Host Response Screen",CCQA_OPT_2023,"TC002 - Employee Gateway_Validation of Explanation Push button and Predate Checkbox_By Branch Radio button_ in 
 Account Debit - Multi Branch Banking (DR 50,51,52,53) Screen_Successful Host Response Screen
 
 Business Capability : Administration 
@@ -2768,7 +2768,7 @@ Gateway : Employee
 
 Sign in with Valid Financial Operator ID.
 
-Need a Valid Primary Chequing Account Number (Ex : 0124 - 3000-018).",9.0,sukum19,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Need a Valid Primary Chequing Account Number (Ex : 0124 - 3000-018).",9,sukum19,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Branch user (CSR)
 
 Gateway : Employee 
@@ -2862,7 +2862,7 @@ Business Capability : Administration
 Sub Category : General Ledger Accounting
 Impacted application : Customer Connect
 Role : Branch User",Administration,Customer Connect,General Ledger Accounting,Branch User,Account Debit - MBB General,,,Employee,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Employee Sales and Service\ISS003B Ser Nav_Employee Gateway - CONVERTED\Display Customer Connect only,917087.0,"TC001 - Employee Gateway_Validation of Explanation Push button and Predate Checkbox_By Customer Radio button_ in Account Debit - Multi Branch Banking (DR 50,51,52,53) Screen_Successful Host Response Screen",CCQA_OPT_2023,"TC001 - Employee Gateway_Validation of Explanation Push button and Predate Checkbox_By Customer Radio button_ in 
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Employee Sales and Service\ISS003B Ser Nav_Employee Gateway - CONVERTED\Display Customer Connect only,917087,"TC001 - Employee Gateway_Validation of Explanation Push button and Predate Checkbox_By Customer Radio button_ in Account Debit - Multi Branch Banking (DR 50,51,52,53) Screen_Successful Host Response Screen",CCQA_OPT_2023,"TC001 - Employee Gateway_Validation of Explanation Push button and Predate Checkbox_By Customer Radio button_ in 
 Account Debit - Multi Branch Banking (DR 50,51,52,53) Screen_Successful Host Response Screen
 
 Business Capability : Administration 
@@ -2883,7 +2883,7 @@ Gateway : Employee
 
 Sign in with Valid Financial Operator ID.
 
-Need a Valid Primary Chequing Account Number (Ex : 0124 - 3000-018).",9.0,sukum19,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
+Need a Valid Primary Chequing Account Number (Ex : 0124 - 3000-018).",9,sukum19,MANUAL,Administration,P&BB - Branch operations,1-High,"Login to Customer Connect Application as 
 Branch user (CSR)
 
 Gateway : Employee 
@@ -2961,7 +2961,7 @@ Business Capability : Administration
 Sub Category : General Ledger Accounting
 Impacted application : Customer Connect
 Role : Branch User",Administration,Customer Connect,General Ledger Accounting,Branch User,Account Debit - MBB General,,,Employee,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Reports,926516.0,"TC039 Validation of Wire Payment_Bank to Bank Wire Payment Transaction_Validate Electronic Journal, CG, IDP",CCQA_OPT_2023,"TC039 Validation of Wire Payment_Bank to Bank Wire Payment Transaction_Validate Electronic Journal, CG, IDP 
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Reports,926516,"TC039 Validation of Wire Payment_Bank to Bank Wire Payment Transaction_Validate Electronic Journal, CG, IDP",CCQA_OPT_2023,"TC039 Validation of Wire Payment_Bank to Bank Wire Payment Transaction_Validate Electronic Journal, CG, IDP 
 
 Business Capability:  Product Servicing
 Impacted Application: Customer Connect 
@@ -2985,7 +2985,7 @@ Profile should have all the AML/KYC fields updated already
 
 Profile should have valid bank accounts (e.g: Bank Accounts and Plans)  for Bank to Bank Wire Transfer transaction
 
-Need CG and IDP Team support for validating the transaction entries",27.0,kbheral,MANUAL,Product Servicing,B2C - Business Banking & Investment Services,1-High,"Login to Customer Connect Application as 
+Need CG and IDP Team support for validating the transaction entries",27,kbheral,MANUAL,Product Servicing,B2C - Business Banking & Investment Services,1-High,"Login to Customer Connect Application as 
 Branch User (FSM)
 
 Profile : Commercial
@@ -3156,7 +3156,7 @@ Business Capability:  Product Servicing
 Impacted Application: Customer Connect 
 Sub- Category: Financials/Drafts/Wires/Money Orders
 Role: Branch User(FSM)",Product Servicing,Customer Connect,Financials/Drafts/Wires/Money Orders,Branch User(FSM),Bank to Bank Wire Transfer,,,No,,,
-Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Reports,927857.0,TC001_Branch_Commercial_ Validation of Wire Payment_Bank to Bank Wire Payment Transaction navigate via service navigator,CCQA_OPT_2023,"TC001_Branch_Commercial_ Validation of Wire Payment_Bank to Bank Wire Payment Transaction navigate via service 
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Administration\Reports,927857,TC001_Branch_Commercial_ Validation of Wire Payment_Bank to Bank Wire Payment Transaction navigate via service navigator,CCQA_OPT_2023,"TC001_Branch_Commercial_ Validation of Wire Payment_Bank to Bank Wire Payment Transaction navigate via service 
 navigator 
 
 Business Capability:  Product Servicing
@@ -3179,7 +3179,7 @@ Sign in with valid financial Operator ID
 
 Profile should have all the AML/KYC fields updated already
 
-Profile should have valid bank accounts (e.g: Bank Accounts and Plans) for Bank to Bank Wire Transfer transaction",18.0,kbheral,MANUAL,Product Servicing,B2C - Business Banking & Investment Services,1-High,"Login to Customer Connect Application as 
+Profile should have valid bank accounts (e.g: Bank Accounts and Plans) for Bank to Bank Wire Transfer transaction",18,kbheral,MANUAL,Product Servicing,B2C - Business Banking & Investment Services,1-High,"Login to Customer Connect Application as 
 Branch User 
 
 Profile : Commercial
@@ -3277,3 +3277,113 @@ Business Capability:  Product Servicing
 Impacted Application: Customer Connect 
 Sub- Category: Financials/Drafts/Wires/Money Orders
 Role: Branch User",Product Servicing,Customer Connect,Financials/Drafts/Wires/Money Orders,Branch User,Bank to Bank Wire Transfer,,,No,,,
+Subject\Rationalized Master Test Bed\No Regret Customer Connect\Rationization Oct23 No Regret\Operator Administration,89914001,TC002A Validation of Operator Final Sign-Out Transaction,CCQA_OPT_2023,"Validation of the Operator Final Sign-Out Transaction in the Customer Connect application.
+Business Capability: Administration
+Sub Category: Branch/Operator Admin
+Impacted Application: Customer Connect
+Role: Branch User (CSR)
+Design:
+GIVEN a personal profile
+WHEN the Final Sign-Out transaction is initiated and confirmed
+THEN the system should process the sign-out and update the electronic journal
+Condition:
+
+Login to Customer Connect Application as Branch User (CSR)
+Profile: Personal
+Profile Type: Customer
+Sign in with a valid financial operator ID
+Profile should have all AML/KYC fields updated",11,sbote,MANUAL,Administration,P&BB - Branch Operations,1-High,"Login to Customer Connect as a Branch User (CSR)
+Navigate to Service Navigator via ""Go To"" dropdown
+Select:
+Holding or Service: Administration
+Category: Operator Administration
+Transaction: Final Sign Out
+Click Process Now~Host Response pop-up should display available amount status | Click OK in the Host Response pop-up~Operator should be signed out successfully | Click OK in the second Host Response pop-up~System should return to Service Navigator screen | Click Inquiries from the Menu Bar~Inquiries pop-up should appear | Select:
+Holding Type: General Inquiries
+Inquiry: Electronic Journal
+Click OK~System should display the Electronic Journal screen| Click List in the Electronic Journal screen~System should list all captured transactions | Select the Final Sign-Out transaction and click Details~System should display Final Sign-Out transaction details in the Transactions Details Grid
+Success Host Response should be displayed under Host Response Section | Click Close Inquiries~System should close Inquiries screen and return to Service Navigator",GIVEN a personal profile,WHEN the Final Sign-Out transaction is initiated and confirmed,THEN the system should process the sign-out and update the electronic journal,"Condition:
+Login to Customer Connect Application as Branch User (CSR)
+Profile: Personal
+Profile Type: Customer
+Sign in with a valid financial operator ID
+Profile should have all AML/KYC fields updated","Validation of the Operator Final Sign-Out Transaction in the Customer Connect application.
+Business Capability: Administration
+Sub Category: Branch/Operator Admin
+Impacted Application: Customer Connect
+Role: Branch User (CSR)",Administration,Customer Connect,Branch/Operator Admin,Branch User (CSR),Final Sign Out,Personal,Customer,No,,,
+Subject\Rationalized Master Test Bed\Rationization Oct23 No Regret\Operator Administration,89914002,TC002B Validation of Operator Sign-In Transaction,CCQA_OPT_2023,"Validation of the Operator Sign-In Transaction in the Customer Connect application.
+
+Business Capability: Administration
+Sub Category: Branch/Operator Admin
+Impacted Application: Customer Connect
+Role: Branch User (CSR)
+Design:
+GIVEN a personal profile
+WHEN the Sign-In transaction is initiated
+THEN the system should successfully log in the operator and update the electronic journal
+
+Condition:
+
+Login to Customer Connect Application as Branch User (CSR)
+Profile: Personal
+Profile Type: Customer
+Profile should have all AML/KYC fields updated",10,sbote,MANUAL,Administration,P&BB - Branch Operations,1-High,"Login to Customer Connect as a Branch User (CSR)
+Navigate to Service Navigator via ""Go To"" dropdown
+Select:
+Holding or Service: Administration
+Category: Operator Administration
+Transaction: Sign In
+Click Process Now~Operator Administration pop-up should display previously connected financial operator number | Validate the tabbing sequence for all fields and verify watermark values~Tabbing works left to right and skips disabled fields
+Left/Right arrow keys move focus between radio buttons
+Watermark values appear when tabbed into a field and disappear when tabbed out | Enter Valid Operator Number and select Postdate checkbox~Operator number should be entered successfully | Click OK~Warning pop-up:
+""Are you sure you want to log on with this operator?""
+
+With Yes & No buttons | Click Yes~Success message in Information pop-up | Click OK~System returns to Service Navigator screen | Verify transaction in Electronic Journal:
+Click Inquiries
+Select General Inquiries > Electronic Journal
+Click OK ? System displays Electronic Journal
+Click List ? Transaction should appear
+Select Sign-In transaction and click Details~Transaction details should be displayed",GIVEN a personal profile,WHEN the Sign-In transaction is initiated,THEN the system should successfully log in the operator and update the electronic journal,"Condition:
+Login to Customer Connect Application as Branch User (CSR)
+Profile: Personal
+Profile Type: Customer
+Profile should have all AML/KYC fields updated","Validation of the Operator Sign-In Transaction in the Customer Connect application.
+Business Capability: Administration
+Sub Category: Branch/Operator Admin
+Impacted Application: Customer Connect
+Role: Branch User (CSR)",Administration,Customer Connect,Branch/Operator Admin,Branch User (CSR),Sign In,Personal,Customer,No,,,
+Subject\Rationalized Master Test Bed\Rationization Oct23 No Regret\Operator Administration,89914003,TC002C Validation of Operator Sign-In with Invalid Operator,CCQA_OPT_2023,"Validation of Operator Sign-In Transaction when using an invalid operator ID in Customer Connect.
+
+Business Capability: Administration
+Sub Category: Branch/Operator Admin
+Impacted Application: Customer Connect
+Role: Branch User (CSR)
+Design:
+GIVEN an invalid operator number
+WHEN the Sign-In transaction is attempted
+THEN the system should prevent login and display an appropriate error message
+
+Condition:
+
+Login to Customer Connect Application as Branch User (CSR)
+Profile: Personal
+Profile Type: Customer",8,sbote,MANUAL,Administration,P&BB - Branch Operations,1-High,"Login to Customer Connect as a Branch User (CSR)
+Navigate to Service Navigator
+Select:
+Holding or Service: Administration
+Category: Operator Administration
+Transaction: Sign In
+Click Process Now~Operator Administration pop-up should display | Enter an Invalid Operator Number~System should validate input and display an error message | Click OK~System should prevent login and show an error pop-up | Verify Error Log in Electronic Journal
+Click Inquiries
+Select General Inquiries > Electronic Journal
+Click OK ? System displays Electronic Journal
+Click List ? The failed transaction should appear
+Select the transaction and click Details~Error response should be displayed | Click Close Inquiries~System should return to Service Navigator",GIVEN an invalid operator number,WHEN the Sign-In transaction is attempted,THEN the system should prevent login and display an appropriate error message,"Condition:
+Login to Customer Connect Application as Branch User (CSR)
+Profile: Personal
+Profile Type: Customer","Validation of Operator Sign-In Transaction when using an invalid operator ID in Customer Connect.
+Business Capability: Administration
+Sub Category: Branch/Operator Admin
+Impacted Application: Customer Connect
+Role: Branch User (CSR)",Administration,Customer Connect,Branch/Operator Admin,Branch User (CSR),Sign In,Personal,Customer,No,,,

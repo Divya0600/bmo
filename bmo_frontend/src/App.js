@@ -6,6 +6,7 @@ import TestCasesPagination from './components/TestCasesPagination';
 import AnalyseTransactionPage from './components/AnalyseTransactionPage';
 import PreProcessingPage from "./components/PreProcessingPage";
 import TestCaseComparisonPage from './components/TestCaseComparisonPage';
+import Feedback from './components/Feedback';
 
 function App() {
   const [fileUrl, setFileUrl] = useState('');
@@ -26,6 +27,7 @@ function App() {
         <Route path="/analyse-transaction" element={<AnalyseTransactionPage />} />
         <Route path="/preprocess-test-cases" element={<PreProcessingPage />} />
         <Route path="/compare-test-cases" element={<TestCaseComparisonPage />} />
+        <Route path="/feedback" element={<Feedback />} />
       </Routes>
     </Router>
   );

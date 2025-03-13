@@ -1,6 +1,7 @@
 # api.py
 import os
-from django.core.files.storage import FileSystemStorage
+from django.core.files.storage import FileSystemStorage, default_storage
+from django.core.files.base import ContentFile
 import json
 from django.http import JsonResponse
 import pandas as pd
@@ -13,6 +14,7 @@ from .input_dissect import process_test_cases
 from .process_labels import process_labels
 from .pre_process import pre_process_test_cases
 from .test_case_comparison import compare_test_cases
+from .feedback import feedback
 
 
 class UploadFileAPIView(APIView):
@@ -325,13 +327,57 @@ class CompareTestCasesAPI(APIView):
             if not os.path.exists(file_path):
                 return JsonResponse({"error": "File not found."}, status=status.HTTP_404_NOT_FOUND)
             
-            comparison_results_json, comparison_results_file = compare_test_cases(file_path)
-            print(f"Im from api path is:{comparison_results_file} and json content is:{comparison_results_json}")
+            comparison_results_json, comparison_results_file,excel_output_path = compare_test_cases(file_path)
+            excel_output_path = os.path.basename(excel_output_path)
             # Return the results in the response
             return JsonResponse({
                 "comparison_results_file": comparison_results_file,
-                "comparison_results": comparison_results_json
+                "comparison_results": comparison_results_json,
+                "excel_output_path":excel_output_path
             }, status=status.HTTP_200_OK)
             
+        except Exception as e:
+            return JsonResponse({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+        
+class Feedback(APIView):
+    def post(self, request, format=None):
+        try:
+            # Check if file is in request.FILES
+            if "feedback_file" not in request.FILES:
+                return JsonResponse({"error": "No file uploaded."}, status=status.HTTP_400_BAD_REQUEST)
+            
+            file = request.FILES["feedback_file"]
+            file_path = f"feedback_files/{file.name}"  # Store in feedback_files folder
+
+            # Save the file
+            saved_path = default_storage.save(file_path, ContentFile(file.read()))
+            feedback_json = feedback(saved_path)
+            print("Feedback JSON:", feedback_json)
+            return JsonResponse({
+                "message": "Feedback file uploaded successfully",
+                "file_path": saved_path,
+                "feedback_json":feedback_json
+            }, status=status.HTTP_201_CREATED)
+
+        except Exception as e:
+            return JsonResponse({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+class SaveFeedback(APIView):
+    def post(self, request, format=None):
+        try:
+            feedback_data = request.data.get("feedback_json", [])
+
+            if not feedback_data:
+                return JsonResponse({"error": "No feedback data received"}, status=status.HTTP_400_BAD_REQUEST)
+
+            # Save the updated feedback to a JSON file (or database)
+            feedback_dir = r"feedback_files"
+            file_path = os.path.join(settings.MEDIA_ROOT,feedback_dir, "updated_feedback.json")
+            print("File path for saving feedback:", file_path)
+            with open(file_path, "w") as f:
+                json.dump(feedback_data, f, indent=4)
+
+            return JsonResponse({"message": "Feedback saved successfully", "file_path": file_path}, status=status.HTTP_200_OK)
+
         except Exception as e:
             return JsonResponse({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)

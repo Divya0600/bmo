@@ -21,7 +21,7 @@ from django.urls import path, include
 from django.shortcuts import redirect
 from django.conf import settings
 from django.conf.urls.static import static
-from .api import UploadFileAPIView, DissectTestCasesAPIView, ProcessLabelsAPIView, UploadMetadataAPIView, GetTransactionSummaryAPIView,UpdateTransactionMappingAPIView,PreProcessTestCasesAPI,GetProcessedTestCasesAPI,CompareTestCasesAPI
+from .api import UploadFileAPIView, DissectTestCasesAPIView, ProcessLabelsAPIView, UploadMetadataAPIView, GetTransactionSummaryAPIView,UpdateTransactionMappingAPIView,PreProcessTestCasesAPI,GetProcessedTestCasesAPI,CompareTestCasesAPI,Feedback,SaveFeedback
 from .input_dissect import download_file
 urlpatterns = [
 
@@ -35,6 +35,9 @@ urlpatterns = [
     path('api/pre-process-test-cases/', PreProcessTestCasesAPI.as_view(), name='preprocess-test-cases'),
     path('api/get-processed-test-cases/', GetProcessedTestCasesAPI.as_view(), name='get-processed-test-cases'),
     path('api/compare-test-cases/', CompareTestCasesAPI.as_view(), name='compare_test_cases'),
+    path('api/upload-feedback/', Feedback.as_view(), name='feedback'),
+    path('api/save-feedback/',SaveFeedback.as_view(),name='save-feedback'),
+
 ]
 
 if settings.DEBUG:

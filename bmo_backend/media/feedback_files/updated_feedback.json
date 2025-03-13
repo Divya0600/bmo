@@ -1,0 +1,30 @@
+[
+    {
+        "Transaction_Type": "Final Sign Out",
+        "Test_Case_1": 899155,
+        "Test_Case_2": 899165,
+        "Feedback": "Personal and Commercial Profiles are involved mark them not similar",
+        "Classification": "PENALIZE"
+    },
+    {
+        "Transaction_Type": "Final Sign Out",
+        "Test_Case_1": 899155,
+        "Test_Case_2": 89914001,
+        "Feedback": "Personal and Commercial Profiles are involved mark them not similar",
+        "Classification": "BOOST"
+    },
+    {
+        "Transaction_Type": "Final Sign Out",
+        "Test_Case_1": 899165,
+        "Test_Case_2": 89914001,
+        "Feedback": "This looks similar",
+        "Classification": "BOOST"
+    },
+    {
+        "Transaction_Type": "Suspense Item Processing",
+        "Test_Case_1": 899177,
+        "Test_Case_2": 899178,
+        "Feedback": "Mark as similar with minor variations",
+        "Classification": "BOOST"
+    }
+]
